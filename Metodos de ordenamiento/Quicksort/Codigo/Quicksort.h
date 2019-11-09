@@ -6,8 +6,8 @@
  * creacion: 14 de Octubre
  * modificacion: 18 de octubre
  */
-#pragma once
 #include <iostream>
+#include <stdlib.h>
 #include "Ingreso.h"
 
 using namespace std;

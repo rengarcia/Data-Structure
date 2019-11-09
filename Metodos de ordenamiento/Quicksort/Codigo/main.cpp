@@ -10,7 +10,7 @@
 #include "Quicksort.h"
 #include "Ingreso.h"
 
-constexpr auto largo = 20;
+
 using namespace std;
 
 int main()
