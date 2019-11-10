@@ -1,13 +1,10 @@
-/** 
-
-        UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-	
-CARRERA: INGENIERIA DE SOFTWARE
-MATERIA: ESTRUCTURA DE DATOS
-TEMA: METODOS DE ORDENAMIENTO: ORDENAMIENTO SHELL SORT
-NRC: 2967
-
- */
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include <fstream>  
 #include "Reina.h"

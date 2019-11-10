@@ -1,10 +1,10 @@
-/***********************************************************************
- * Module:  Reina.cpp
- * Author:  Maria Belen Ceron
- * Modified: sábado, 9 de noviembre de 2019 18:01:03
- * Purpose: Implementation of the class Reina
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include "Reina.h"
 #include <iostream>
 #include <fstream> 

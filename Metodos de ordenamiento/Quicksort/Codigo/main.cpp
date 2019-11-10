@@ -1,10 +1,10 @@
-/**
- * Universidad De las Fuerzas Armadas ESPE
- * Carrera: Ingeniería de Software
- * Materia: Estructura de Datos
- * Tema: Quicksort
- * NRC: 2969
- */
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include "Quicksort.h"
 #include "Ingreso.h"

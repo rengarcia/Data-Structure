@@ -1,9 +1,10 @@
-/***********************************************************************
- * Module:  Ingreso.h
- * NRC: 2967
- * Modified: sábado, 9 de noviembre de 2019 17:05:03
- * Purpose: Declaration of the class Ingreso
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include <stdlib.h>
 #include <string>

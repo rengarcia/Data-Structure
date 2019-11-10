@@ -1,11 +1,10 @@
-/***********************************************************************
- * Module:  Ordenamiento.h
- * Author:  User
- * Modified: sábado, 9 de noviembre de 2019 17:05:03
- * Purpose: Declaration of the class Ordenamiento
- ***********************************************************************/
-
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #ifndef ORDENAMIENTO_H
 #define ORDENAMIENTO_H
 

@@ -1,10 +1,10 @@
-/***********************************************************************
- * Module:  Grafico.h
- * Author:  kevin
- * Modified: Saturday, November 9, 2019 11:56:57 AM
- * Purpose: Declaration of the class grafico
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #if !defined(__PuzleDeslizar2_grafico_h)
 #define __PuzleDeslizar2_grafico_h
 

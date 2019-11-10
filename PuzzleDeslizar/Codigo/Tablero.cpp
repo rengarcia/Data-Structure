@@ -1,10 +1,10 @@
-/***********************************************************************
- * Module:  Tablero.cpp
- * Author:  kevin
- * Modified: Saturday, November 9, 2019 12:18:37 PM
- * Purpose: Implementation of the class Tablero
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include "Tablero.h"
 #include <iostream>
 #include <time.h>
