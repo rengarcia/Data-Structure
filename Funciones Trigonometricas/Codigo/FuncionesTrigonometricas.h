@@ -7,9 +7,9 @@
 
 #if !defined(__Funciones_Trigonometricas_FuncionesTrigonometricas_h)
 #define __Funciones_Trigonometricas_FuncionesTrigonometricas_h
-#include <math.h>
 #include <iostream>
 #include <stdio.h>
+#include <math.h>
 #define PI 3.14159265359
 using namespace std;
 
@@ -21,6 +21,7 @@ public:
    float coseno(float angulo);
    float tangente(float angulo);
    float radianes(float angulo);
+   int potencia(int valor,int exponente);
 
 protected:
 private:
@@ -33,7 +34,7 @@ int FuncionesTrigonometricas::factorial (int angulo)
  {  int factor,i;
     factor=1;  
     for (i=1;i<=angulo;i++) {
-	factor=factor*i; 
+		factor=factor*i; 
 	}
     return (factor);  
 }
@@ -45,13 +46,13 @@ float FuncionesTrigonometricas::seno(float angulo)
     float resultado;
     int i, posicion, precision;
     resultado= angulo; 
-    precision=10; 
+    precision=5; 
     for(i=1; i<=precision; i++){
         posicion = i * 2 + 1; 
         if(i%2==0) 
-        	resultado += pow(angulo, posicion) / factorial(posicion);
+        	resultado += potencia(angulo, posicion) / factorial(posicion);
         else 
-			resultado -= pow(angulo, posicion) / factorial(posicion);
+			resultado -= potencia(angulo, posicion) / factorial(posicion);
     }
     
 	return resultado; 
@@ -62,13 +63,13 @@ float FuncionesTrigonometricas::coseno(float angulo){
 	float resultado;
     int i, posicion, precision;
     resultado= 1; 
-    precision=15; 
+    precision=5; 
     for(i=1; i<=precision; i++){
         posicion = i * 2; 
         if(i%2==0) 
-        resultado += pow(angulo, posicion) / factorial(posicion);
+        resultado += potencia(angulo, posicion) / factorial(posicion);
         else 
-			resultado -= pow(angulo, posicion) / factorial(posicion);
+			resultado -= potencia(angulo, posicion) / factorial(posicion);
       }
 	return resultado; 
 
@@ -84,6 +85,16 @@ float FuncionesTrigonometricas::tangente(float angulo){
 	seno=FuncionesTrigonometricas::seno(angulo);
 	resultado=seno/coseno;
 	return resultado;
+	
+}
+
+int FuncionesTrigonometricas::potencia(int valor,int exponente){
+	int resultado = valor;
+	if(exponente>0){
+		return resultado*potencia(valor,exponente-1);
+	}else{
+		return 1;
+	}
 	
 }
 

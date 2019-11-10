@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <iostream>
+#include <stdlib.h>
 #include "FuncionesTrigonometricas.h"
 #include "Ingreso.h"
 
