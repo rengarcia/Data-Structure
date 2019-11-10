@@ -21,7 +21,7 @@ int main()
     Dato dato=Dato();
     dato.setValor(leer.ingresarInt(&valor));
     dato.setValor(dato.factorial(dato.getValor()));
-    cout<<dato.getValor()<<endl;
+    cout<<"El factorial del numero ingresado es: "<<dato.getValor()<<endl;
     system("pause");
     return 0;
 }

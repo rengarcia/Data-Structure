@@ -55,7 +55,7 @@ int Ingreso::ingresarInt(char *p)
     char tecla;
     int i=0;
     p[0]='\0';
-    cout<<"Ingresa Un Entero"<<endl;;
+    cout<<"Ingresa un entero para sacar su respectivo factorial"<<endl;;
     do
     {
         tecla=getch();
