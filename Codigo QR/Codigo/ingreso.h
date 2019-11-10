@@ -1,16 +1,10 @@
-/**
-  * Universidad De las Fuerzas Armadas ESPE
-  * Carrera: Ingeniería de Software
-  * Materia: Estructura de Datos
-  * NRC: 2969
-  * @file ingreso.h
-  * @version 1.0.0
-  * @date 23/09/2019
-  * @author Kevin Duy
-  * @title Division
-  * @brief Validacion del ingreso de datos
-*/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>

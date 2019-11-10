@@ -1,8 +1,11 @@
-/**
- *
- * @author Elian Llorente
- * @date 30/SEP/2019
- */
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
+
 #include<iostream>
 #include<stdlib.h>
 #include<conio.h>
@@ -13,12 +16,6 @@ class Ingreso {
 public:
     int ingresarInt(char *);
 };
-
-/**
- *
- * @author Elian Llorente
- * @date 30/SEP/2019
- */
 
 int Ingreso::ingresarInt(char *message) {
     bool flag = true;

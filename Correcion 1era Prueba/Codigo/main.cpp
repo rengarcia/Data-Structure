@@ -1,13 +1,10 @@
-/*	*******************************************************************
-	*            UNIVERSIDAD DE LAS FUERZAS ARMADAS                   *
-	*                        ESPE                                     *
-	* CORECCION 1ERA PRUEBA                                           *
-	* NOMBRES: LUIS CARVAJAL                                          *
-	* MATERIA: ESTRUCTURA DE DATOS                                    *
-	* NRC: 2967                                                       *
-	* Fecha de Creacion:07/11/2019                                    *
-	******************************************************************* */
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <stdio.h>
 #include <iostream>
 #include <time.h>

@@ -1,10 +1,10 @@
-/***********************************************************************
- * Module:  ContadorVocales.cpp
- * Author:  ALEX
- * Modified: Saturday, November 9, 2019 8:09:30 PM
- * Purpose: Implementation of the class ContadorVocales
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include "ContadorVocales.h"
 
 ////////////////////////////////////////////////////////////////////////

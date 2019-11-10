@@ -1,22 +1,12 @@
-/*
-	Universidad de las Fuerzas Armadas ESPE
-    Renan Garcia
-    NRC: 2967
-    Fecha creacion: 10/10/2019
-	Fecha ultima modificacion:	11/10/2019
-	Docente: Ing. Fernando Solis
-
-*/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #ifndef MATRIZIDENTIDAD_IDENTIDAD_H
 #define MATRIZIDENTIDAD_IDENTIDAD_H
-/**
-  * @file Identidad.h
-  * @version 1.0
-  * @date 14/10/2019
-  * @author Renan Garcia
-  * @title Identidad
-  */
 
 #include <stdio.h>
 #include <stdlib.h>

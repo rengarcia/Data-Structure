@@ -1,14 +1,10 @@
-/***********************************************************************
- * Module:  Busqueda.h
- * Author:  Sashael
- * Modified: sábado, 9 de noviembre de 2019 17:34:53
- * Purpose: Declaration of the class Busqueda
- ***********************************************************************/
-/***********************************************************************
- * Module:  Busqueda.java
- * Author:  Sashael
- * Purpose: Defines the Class Busqueda
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 
 #if !defined(__Class_Diagram_2_Busqueda_h)
 #define __Class_Diagram_2_Busqueda_h

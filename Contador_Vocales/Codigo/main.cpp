@@ -1,9 +1,10 @@
-/***********************************************************************
- *  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
- * Modulo:  main.cpp
- * Modificacion: Saturday, November 9, 2019
- * Implementacion: Ejecucion de contador de vocales
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include<string.h>

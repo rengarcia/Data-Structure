@@ -1,9 +1,10 @@
-/***********************************************************************
- * Module:  Formula.h
- * Author:  Edison Baez
- * Modified: sábado, 9 de noviembre de 2019 12:08:02
- * Purpose: Declaration of the class Formula
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 
 #if !defined(__FormulaGeneralModel_Formula_h)
 #define __FormulaGeneralModel_Formula_h

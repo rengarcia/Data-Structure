@@ -1,13 +1,10 @@
-/*
-	Universidad de las Fuerzas Armadas ESPE
-    Renan Garcia
-    NRC: 2967
-    Fecha creacion: 10/10/2019
-	Fecha ultima modificacion:	11/10/2019
-	Docente: Ing. Fernando Solis
-
-*/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include "identidad.h"
 #include "ingreso.h"

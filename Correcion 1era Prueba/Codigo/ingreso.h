@@ -1,41 +1,10 @@
-/**
-  * @file ingreso.h
-  * @version 1.0
-  * @date 29/09/2019
-  * @author Luis Carvajal
-  * @title Clase Ingreso
-  * @code
-    int main(){
-	main:
-	int row,col,exp;
-	Matriz p;
-	printf("Ingrese # filas: ");
-	scanf("%d",&row);
-	printf("Ingrese # columnas: ");
-	scanf("%d",&col);
-	printf("\n");
-	if(row>10&&row>10||row!=col){
-		printf("la matriz tiene q ser cuadrada y su dimenion menor o igual q 10\n");
-	}else{
-		p.setcolumnas(col);
-		p.setfilas(row);
-		p.crear();
-		p.llenar();
-		p.imprimir();
-		printf("ingrese el exponente: ");
-		scanf("%d",&exp);
-		p.multiplicar(exp);
-		p.imprimir();
-		
-		
-	}
-	system("pause");
-	system("cls");
-	goto main;
-	return 0;
-  * @endcode
-  * @brief Ingreso de datos 
-  */
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include <string>
 #include <stdlib.h>

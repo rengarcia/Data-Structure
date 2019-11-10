@@ -1,10 +1,10 @@
-/*
-UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
-CARRERA: SOFTWARE
-MATERIA: ESTRUCTURA DE DATOS
-TEMA: BUSQUEDA SECUENCIAL
-NRC: 2967
- */
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include<iostream>
 #include<stdlib.h>
 #include <conio.h>

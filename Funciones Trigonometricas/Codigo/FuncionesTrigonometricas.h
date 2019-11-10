@@ -1,10 +1,10 @@
-/***********************************************************************
- * Module:  FuncionesTrigonometricas.h
- * Author:  Alan
- * Modified: sábado, 09 de noviembre de 2019 13:42:38
- * Purpose: Declaration of the class FuncionesTrigonometricas
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #if !defined(__Funciones_Trigonometricas_FuncionesTrigonometricas_h)
 #define __Funciones_Trigonometricas_FuncionesTrigonometricas_h
 #include <iostream>

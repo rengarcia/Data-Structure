@@ -1,10 +1,10 @@
-/***********************************************************************
- *  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
- * Modulo:  Ingreso.h
- * Modificacion: Saturday, November 9, 2019
- * Implementacion: Ejecucion de contador de vocales
- ***********************************************************************/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include<stdlib.h>
 #include<conio.h>

@@ -1,9 +1,10 @@
-/***********************************************************************
- * Module:  Busqueda.h
- * Author:  Jorge Galarza
- * Modified: sabado, 9 de noviembre de 2019 10:41:46
- * Purpose: Declaration of the class Busqueda
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 
 #ifndef BUSQUEDA_H
 #define BUSQUEDA_H

@@ -1,11 +1,9 @@
 /******************************************************************
-*            UNIVERSIDAD DE LAS FUERZAS ARMADAS                   *
-*                        ESPE                                     *
-*TRABAJO EN GRUPO:                                                *
-*          NOMBRES:ANTONI TOAPANTA                                *
-*MATERIA: ESTRUCTURA DE DATOS                                     *
-*NRC:2967                                                         *
-*Fecha de Creacion:16/10/2019                                     *
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
 ******************************************************************/
 #include <iostream>
 #include<stdlib.h>

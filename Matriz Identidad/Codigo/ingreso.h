@@ -1,22 +1,13 @@
-/*
-	Universidad de las Fuerzas Armadas ESPE
-    Renan Garcia
-    NRC: 2967
-    Fecha creacion: 10/10/2019
-	Fecha ultima modificacion:	11/10/2019
-	Docente: Ing. Fernando Solis
-
-*/
-
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #ifndef MATRIZIDENTIDAD_INGRESO_H
 #define MATRIZIDENTIDAD_INGRESO_H
-/**
-  * @file Ingreso.h
-  * @version 1.0
-  * @date 14/10/2019
-  * @author Renan Garcia
-  * @title Ingreso
-  */
+
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
