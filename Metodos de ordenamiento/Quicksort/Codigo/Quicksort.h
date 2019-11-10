@@ -1,10 +1,9 @@
-/*Universidad de las fuerzas armadas ESPE
- * Estructura de Datos
- * Ingenieria de Software
- * Renan Garcia
- * Pregrado S-II
- * creacion: 14 de Octubre
- * modificacion: 18 de octubre
+/**
+ * Universidad De las Fuerzas Armadas ESPE
+ * Carrera: Ingeniería de Software
+ * Materia: Estructura de Datos
+ * Tema: Quicksort
+ * NRC: 2969
  */
 #include <iostream>
 #include <stdlib.h>
