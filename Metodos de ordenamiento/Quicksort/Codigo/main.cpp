@@ -13,11 +13,10 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     Ingreso ingreso;
     int n = atoi(ingreso.ingresar("Indique valor entero de numeros a ingresar: ").c_str());
-    int* A = (int*)malloc(n * sizeof(int));
+    int* A = (int*) malloc(n * sizeof (int));
 
     leeCadena(n, A);
     quicksort(A, 0, n - 1);

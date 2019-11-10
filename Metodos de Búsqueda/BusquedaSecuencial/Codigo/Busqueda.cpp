@@ -16,9 +16,8 @@ using namespace std;
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Busqueda::Busqueda(int* arrg, int n)
-{
-   	this->arreglo = arrg;
+Busqueda::Busqueda(int* arrg, int n) {
+    this->arreglo = arrg;
     this->tamanio = n;
 }
 
@@ -28,13 +27,12 @@ Busqueda::Busqueda(int* arrg, int n)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Busqueda::busquedaSecuencial(int clave)
-{
-   bool encontrado = true;
+void Busqueda::busquedaSecuencial(int clave) {
+    bool encontrado = true;
     //Buscar clave o dato en el arreglo.
-    for (int j = 0;j < tamanio;j++){
-        if (*(arreglo+j) == clave){
-            cout<< "Se encontro el " << clave<< " en la posicion [" << j+1<< "]" << endl;
+    for (int j = 0; j < tamanio; j++) {
+        if (*(arreglo + j) == clave) {
+            cout << "Se encontro el " << clave << " en la posicion [" << j + 1 << "]" << endl;
             encontrado = false;
         }
     }
@@ -42,7 +40,7 @@ void Busqueda::busquedaSecuencial(int clave)
     delete[] arreglo;
 
     if (encontrado)
-        cout<< "No se encontro el dato" << endl;
+        cout << "No se encontro el dato" << endl;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -51,9 +49,8 @@ void Busqueda::busquedaSecuencial(int clave)
 // Return:     int*
 ////////////////////////////////////////////////////////////////////////
 
-int* Busqueda::getArreglo(void)
-{
-   return arreglo;
+int* Busqueda::getArreglo(void) {
+    return arreglo;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -64,9 +61,8 @@ int* Busqueda::getArreglo(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Busqueda::setArreglo(int* newArreglo)
-{
-   arreglo = newArreglo;
+void Busqueda::setArreglo(int* newArreglo) {
+    arreglo = newArreglo;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -75,9 +71,8 @@ void Busqueda::setArreglo(int* newArreglo)
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
 
-int Busqueda::getTamanio(void)
-{
-   return tamanio;
+int Busqueda::getTamanio(void) {
+    return tamanio;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -88,7 +83,6 @@ int Busqueda::getTamanio(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Busqueda::setTamanio(int newTamanio)
-{
-   tamanio = newTamanio;
+void Busqueda::setTamanio(int newTamanio) {
+    tamanio = newTamanio;
 }

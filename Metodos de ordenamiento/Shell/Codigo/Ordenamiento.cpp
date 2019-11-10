@@ -17,9 +17,8 @@
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Ordenamiento::ingresarDatos(int dim, int* arreglo)
-{
- 	Ingreso ingreso;
+void Ordenamiento::ingresarDatos(int dim, int* arreglo) {
+    Ingreso ingreso;
     for (int i = 0; i < dim; i++) {
         *(arreglo + i) = atoi(ingreso.ingresar("Ingrese valor entero: ").c_str());
     }
@@ -34,9 +33,8 @@ void Ordenamiento::ingresarDatos(int dim, int* arreglo)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Ordenamiento::imprimir(int* arreglo, int dim)
-{
-   for (int i=0; i < dim; i++)
+void Ordenamiento::imprimir(int* arreglo, int dim) {
+    for (int i = 0; i < dim; i++)
         cout << *(arreglo + i) << " ";
 }
 
@@ -47,11 +45,11 @@ void Ordenamiento::imprimir(int* arreglo, int dim)
 // - dim
 // Return:     int*
 ////////////////////////////////////////////////////////////////////////
-int* Ordenamiento::inicializarVector(int dim)
-{
-	int* a;
-	a = (int*)calloc(dim,sizeof(int));
-	return a;
+
+int* Ordenamiento::inicializarVector(int dim) {
+    int* a;
+    a = (int*) calloc(dim, sizeof (int));
+    return a;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -63,13 +61,12 @@ int* Ordenamiento::inicializarVector(int dim)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Ordenamiento::ordenarShell(int* arreglo, int dim)
-{
-   for (int gap = dim / 2; gap > 0; gap /= 2){
-        for (int i = gap; i < dim; i += 1){
+void Ordenamiento::ordenarShell(int* arreglo, int dim) {
+    for (int gap = dim / 2; gap > 0; gap /= 2) {
+        for (int i = gap; i < dim; i += 1) {
             int temp = *(arreglo + i);
             int j;
-            for (j = i; j >= gap && *(arreglo + (j-gap)) > temp; j -= gap)
+            for (j = i; j >= gap && *(arreglo + (j - gap)) > temp; j -= gap)
                 *(arreglo + j) = *(arreglo + (j - gap));
             *(arreglo + j) = temp;
         }
@@ -82,8 +79,7 @@ void Ordenamiento::ordenarShell(int* arreglo, int dim)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Ordenamiento::Ordenamiento()
-{
+Ordenamiento::Ordenamiento() {
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -92,7 +88,6 @@ Ordenamiento::Ordenamiento()
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Ordenamiento::~Ordenamiento()
-{
-   // TODO : implement
+Ordenamiento::~Ordenamiento() {
+    // TODO : implement
 }

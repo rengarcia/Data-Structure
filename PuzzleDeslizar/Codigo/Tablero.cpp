@@ -20,14 +20,13 @@ using namespace std;
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::inicializar(int filas, int columnas)
-{
-	matriz = (int**)malloc(filas * sizeof(int));
-	srand(time(NULL));
+void Tablero::inicializar(int filas, int columnas) {
+    matriz = (int**) malloc(filas * sizeof (int));
+    srand(time(NULL));
 
-	for (int i = 0; i < columnas; i++) {
-		(*(matriz + i)) = (int*)malloc(columnas * sizeof(int));
-	}
+    for (int i = 0; i < columnas; i++) {
+        (*(matriz + i)) = (int*) malloc(columnas * sizeof (int));
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -41,12 +40,11 @@ void Tablero::inicializar(int filas, int columnas)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::mover(int filaActual, int columnaActual, int filaNueva, int columnaNueva)
-{
-   int aux;
-	aux = *(*(matriz + filaActual) + columnaActual);
-	*(*(matriz + filaActual) + columnaActual) = *(*(matriz + filaNueva) + columnaNueva);
-	*(*(matriz + filaNueva) + columnaNueva) = aux;
+void Tablero::mover(int filaActual, int columnaActual, int filaNueva, int columnaNueva) {
+    int aux;
+    aux = *(*(matriz + filaActual) + columnaActual);
+    *(*(matriz + filaActual) + columnaActual) = *(*(matriz + filaNueva) + columnaNueva);
+    *(*(matriz + filaNueva) + columnaNueva) = aux;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -58,16 +56,15 @@ void Tablero::mover(int filaActual, int columnaActual, int filaNueva, int column
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::llenar(int filas, int columnas)
-{
-	int numeros = 1;
-	for(int i = 0;i < filas; i++){
-		for(int j = 0; j < columnas; j++){
-			*(*(matriz + i) + j) = numeros;
-			numeros++;
-		}
-	}
-	*(*(matriz + filas-1)+ columnas-1) = -1;
+void Tablero::llenar(int filas, int columnas) {
+    int numeros = 1;
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            *(*(matriz + i) + j) = numeros;
+            numeros++;
+        }
+    }
+    *(*(matriz + filas - 1) + columnas - 1) = -1;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -79,23 +76,20 @@ void Tablero::llenar(int filas, int columnas)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::desordenar(int filas, int columnas)
-{
-   int filaNueva;
-   int columnaNueva;
-   int auxiliar;
-   srand(time(NULL));
-   for (int i = 0; i < filas; i++)
-	{
-		for (int j = 0; j < columnas; j++)
-		{
-			filaNueva = rand() % (filas);
-			columnaNueva = rand() % (columnas);			
-			auxiliar = (*(*(matriz + i) + j));
-			*(*(matriz + i) + j) = *(*(matriz + filaNueva) + columnaNueva);
-			(*(*(matriz + filaNueva) + columnaNueva)) = auxiliar;									
-		}		
-	}
+void Tablero::desordenar(int filas, int columnas) {
+    int filaNueva;
+    int columnaNueva;
+    int auxiliar;
+    srand(time(NULL));
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            filaNueva = rand() % (filas);
+            columnaNueva = rand() % (columnas);
+            auxiliar = (*(*(matriz + i) + j));
+            *(*(matriz + i) + j) = *(*(matriz + filaNueva) + columnaNueva);
+            (*(*(matriz + filaNueva) + columnaNueva)) = auxiliar;
+        }
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -104,9 +98,8 @@ void Tablero::desordenar(int filas, int columnas)
 // Return:     int**
 ////////////////////////////////////////////////////////////////////////
 
-int** Tablero::getMatriz(void)
-{
-   return matriz;
+int** Tablero::getMatriz(void) {
+    return matriz;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -117,9 +110,8 @@ int** Tablero::getMatriz(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::setMatriz(int** newMatriz)
-{
-   matriz = newMatriz;
+void Tablero::setMatriz(int** newMatriz) {
+    matriz = newMatriz;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -131,11 +123,10 @@ void Tablero::setMatriz(int** newMatriz)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Tablero::Tablero(int filas, int columnas)
-{
-   inicializar(filas,columnas);
-   llenar(filas,columnas);
-   desordenar(filas,columnas);
+Tablero::Tablero(int filas, int columnas) {
+    inicializar(filas, columnas);
+    llenar(filas, columnas);
+    desordenar(filas, columnas);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -144,9 +135,8 @@ Tablero::Tablero(int filas, int columnas)
 // Return:     
 ////////////////////////////////////////////////////////////////////////
 
-Tablero::~Tablero()
-{
-   free(matriz);
+Tablero::~Tablero() {
+    free(matriz);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -158,20 +148,17 @@ Tablero::~Tablero()
 // Return:     bool
 ////////////////////////////////////////////////////////////////////////
 
-bool Tablero::verificar(int filas, int columnas)
-{
-	int numero = 1;
-	for (int i = 0; i < filas; i++)
-	{
-		for (int j = 0; j < columnas; j++)
-		{
-			if(*(*(matriz +i)+j) !=numero){
-				return false;
-			}
-			numero++;
-		}
-	}
-	return true;
+bool Tablero::verificar(int filas, int columnas) {
+    int numero = 1;
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            if (*(*(matriz + i) + j) != numero) {
+                return false;
+            }
+            numero++;
+        }
+    }
+    return true;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -183,16 +170,15 @@ bool Tablero::verificar(int filas, int columnas)
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
 
+int Tablero::buscarFila(int filas, int columnas) {
 
-int Tablero::buscarFila(int filas, int columnas){
-	
-	for (int i = 0;i < filas; i++){
-		for(int j = 0;j < columnas; j++){
-			if(*(*(matriz +i)+j) == -1){
-				return i;
-			}
-		}
-	}
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            if (*(*(matriz + i) + j) == -1) {
+                return i;
+            }
+        }
+    }
 }
 
 
@@ -206,14 +192,14 @@ int Tablero::buscarFila(int filas, int columnas){
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-int Tablero::buscarColumna(int filas, int columnas){
-	for (int i = 0;i < filas; i++){
-		for(int j = 0;j < columnas; j++){
-			if(*(*(matriz +i)+j) == -1){
-				return j;
-			}
-		}
-	}
+int Tablero::buscarColumna(int filas, int columnas) {
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            if (*(*(matriz + i) + j) == -1) {
+                return j;
+            }
+        }
+    }
 }
 
 
@@ -226,19 +212,18 @@ int Tablero::buscarColumna(int filas, int columnas){
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Tablero::imprimir(int filas, int columnas){
-	system("cls");
-	cout << endl << endl;
-	for (int i = 0; i < filas; i++) {
-		cout << "\t\t";
-		for (int j = 0; j < columnas; j++) {
-			if ((*(*(matriz + i) + j)) != -1) {
-				cout << *(*(matriz + i) + j)<< "\t";
-			}
-			else {
-				cout<< "  \t";
-			}				
-		}			
-		cout << endl;
-	}
+void Tablero::imprimir(int filas, int columnas) {
+    system("cls");
+    cout << endl << endl;
+    for (int i = 0; i < filas; i++) {
+        cout << "\t\t";
+        for (int j = 0; j < columnas; j++) {
+            if ((*(*(matriz + i) + j)) != -1) {
+                cout << *(*(matriz + i) + j) << "\t";
+            } else {
+                cout << "  \t";
+            }
+        }
+        cout << endl;
+    }
 }
