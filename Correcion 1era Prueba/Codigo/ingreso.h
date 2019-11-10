@@ -1,9 +1,10 @@
-/***********************************************************************
- * Module:  ingreso.h
- * Author:  G403
- *By: Cesar Naula
- * Purpose: Implementation of the class Entry
- ***********************************************************************/
+/******************************************************************
+*            UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE              *
+* CARRERA: Ingenieria de Software                                 *
+* SEMESTRE: Tercer semestre                                       *
+* MATERIA: Estructura de Datos                                    *
+* NRC: 2967                                                       *
+******************************************************************/
 #include <iostream>
 #include <string>
 #include <stdlib.h>
