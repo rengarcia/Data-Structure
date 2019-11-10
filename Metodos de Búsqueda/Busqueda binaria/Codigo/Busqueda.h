@@ -14,13 +14,13 @@
 #include <stdlib.h>
 #include "Ingreso.h"
 using namespace std;
-class Busqueda
-{
-	public:
-		int* ordenamientoBurbuja(int, int*);
-		int busquedaBinaria(int,int,int, int*);
-		int* inicializarVector(int);
-		int* ingresoDatos(int,int*);
+
+class Busqueda {
+public:
+    int* ordenamientoBurbuja(int, int*);
+    int busquedaBinaria(int, int, int, int*);
+    int* inicializarVector(int);
+    int* ingresoDatos(int, int*);
 };
 
 #endif

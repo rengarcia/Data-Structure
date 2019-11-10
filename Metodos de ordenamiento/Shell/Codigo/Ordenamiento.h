@@ -15,15 +15,14 @@
 
 using namespace std;
 
-class Ordenamiento
-{
+class Ordenamiento {
 public:
-   void ingresarDatos(int dim, int* arreglo);
-   void imprimir(int* arreglo, int dim);
-   void ordenarShell(int* arreglo, int dim);
-   int* inicializarVector(int dim);
-   Ordenamiento();
-   ~Ordenamiento();
+    void ingresarDatos(int dim, int* arreglo);
+    void imprimir(int* arreglo, int dim);
+    void ordenarShell(int* arreglo, int dim);
+    int* inicializarVector(int dim);
+    Ordenamiento();
+    ~Ordenamiento();
 
 protected:
 private:

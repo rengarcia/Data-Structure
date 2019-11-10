@@ -15,29 +15,25 @@
 // - a
 // Return:     int*
 ////////////////////////////////////////////////////////////////////////
-int* Busqueda::ordenamientoBurbuja(int dim, int* a)
-{
-	int aux;
-	for(int i=0;i<dim-1;i++)
-   {
-      for(int j=0;j<dim-1;j++)
-      {
-         if(*(a+j)>*(a+j+1))
-         {
-            aux=*(a+j);
-            *(a+j)=*(a+j+1);
-            *(a+j+1)=aux;
-         }
-      }
-   }
 
-   cout << "El arreglo ordenado por burbuja es:  "<<endl;
-   for(int i=0;i<dim;i++)
-   {
-      cout <<"["<< *(a+i)<<"]"<<" ";
-   }
-   cout << endl;
-   return a;
+int* Busqueda::ordenamientoBurbuja(int dim, int* a) {
+    int aux;
+    for (int i = 0; i < dim - 1; i++) {
+        for (int j = 0; j < dim - 1; j++) {
+            if (*(a + j)>*(a + j + 1)) {
+                aux = *(a + j);
+                *(a + j) = *(a + j + 1);
+                *(a + j + 1) = aux;
+            }
+        }
+    }
+
+    cout << "El arreglo ordenado por burbuja es:  " << endl;
+    for (int i = 0; i < dim; i++) {
+        cout << "[" << *(a + i) << "]" << " ";
+    }
+    cout << endl;
+    return a;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -47,11 +43,11 @@ int* Busqueda::ordenamientoBurbuja(int dim, int* a)
 // - dim
 // Return:     int*
 ////////////////////////////////////////////////////////////////////////
-int* Busqueda::inicializarVector(int dim)
-{
-	int* a;
-	a = (int*)calloc(dim,sizeof(int));
-	return a;
+
+int* Busqueda::inicializarVector(int dim) {
+    int* a;
+    a = (int*) calloc(dim, sizeof (int));
+    return a;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -62,18 +58,17 @@ int* Busqueda::inicializarVector(int dim)
 // - a
 // Return:     int*
 ////////////////////////////////////////////////////////////////////////
-int* Busqueda::ingresoDatos(int dim,int* a)
-{
-	Ingreso leer;
-	
-	int aux;
-	
-	for(int i=0;i<dim;i++)
-   {
-   	cout << "Ingrese el elemento de la posicion: "<< "["<<i<<"]"<<endl;
-   	aux = leer.ingresarEntero();
-      *(a+i)=aux;
-   }
+
+int* Busqueda::ingresoDatos(int dim, int* a) {
+    Ingreso leer;
+
+    int aux;
+
+    for (int i = 0; i < dim; i++) {
+        cout << "Ingrese el elemento de la posicion: " << "[" << i << "]" << endl;
+        aux = leer.ingresarEntero();
+        *(a + i) = aux;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -86,24 +81,18 @@ int* Busqueda::ingresoDatos(int dim,int* a)
 // - array
 // Return:     int
 ////////////////////////////////////////////////////////////////////////
-int Busqueda::busquedaBinaria(int x, int inicio, int final, int *array)
-{
-	 int q;
-   q=(inicio+final)/2;
-   if(x==*(array+q))
-   {
-      return q;
-   }
-   else if (x>*(array+q))
-   {
-      busquedaBinaria(x,q+1,final,array);
-   }
 
-   else if (x<*(array+q))
-   {
-      busquedaBinaria(x,inicio,q-1,array);
-   }
-
-   else if(inicio>=final)
-      return -1;
+int Busqueda::busquedaBinaria(int x, int inicio, int final, int *array) {
+    int q;
+    q = (inicio + final) / 2;
+    if (x == *(array + q)) {
+        return q;
+    } else if (x>*(array + q)) {
+        busquedaBinaria(x, q + 1, final, array);
+    }
+    else if (x<*(array + q)) {
+        busquedaBinaria(x, inicio, q - 1, array);
+    }
+    else if (inicio >= final)
+        return -1;
 }

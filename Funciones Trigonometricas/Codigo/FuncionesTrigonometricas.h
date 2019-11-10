@@ -21,7 +21,7 @@ public:
    float coseno(float angulo);
    float tangente(float angulo);
    float radianes(float angulo);
-   int potencia(int valor,int exponente);
+   int potencia(int base,int exponente);
 
 protected:
 private:
@@ -88,10 +88,10 @@ float FuncionesTrigonometricas::tangente(float angulo){
 	
 }
 
-int FuncionesTrigonometricas::potencia(int valor,int exponente){
-	int resultado = valor;
+int FuncionesTrigonometricas::potencia(int base,int exponente){
+	int resultado = base;
 	if(exponente>0){
-		return resultado*potencia(valor,exponente-1);
+		return resultado*potencia(base,exponente-1);
 	}else{
 		return 1;
 	}

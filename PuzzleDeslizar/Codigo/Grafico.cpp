@@ -18,14 +18,13 @@
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Grafico::gotoxy(int x, int y)
-{
-   HANDLE h_con;
-	h_con = GetStdHandle(STD_OUTPUT_HANDLE);
-	COORD dwPos;
-	dwPos.X = x;
-	dwPos.Y = y;
-	SetConsoleCursorPosition(h_con, dwPos);
+void Grafico::gotoxy(int x, int y) {
+    HANDLE h_con;
+    h_con = GetStdHandle(STD_OUTPUT_HANDLE);
+    COORD dwPos;
+    dwPos.X = x;
+    dwPos.Y = y;
+    SetConsoleCursorPosition(h_con, dwPos);
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -34,12 +33,11 @@ void Grafico::gotoxy(int x, int y)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Grafico::ocultarCursor(void)
-{
-   	HANDLE h_con;
-	h_con = GetStdHandle(STD_OUTPUT_HANDLE);
-	CONSOLE_CURSOR_INFO cci;
-	cci.dwSize = 28;
-	cci.bVisible = FALSE;
-	SetConsoleCursorInfo(h_con, &cci);
+void Grafico::ocultarCursor(void) {
+    HANDLE h_con;
+    h_con = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_CURSOR_INFO cci;
+    cci.dwSize = 28;
+    cci.bVisible = FALSE;
+    SetConsoleCursorInfo(h_con, &cci);
 }
