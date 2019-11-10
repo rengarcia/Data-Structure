@@ -1,7 +1,6 @@
 /***********************************************************************
  *  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
  * Modulo:  main.cpp
- * Autor:  ALEX
  * Modificacion: Saturday, November 9, 2019
  * Implementacion: Ejecucion de contador de vocales
  ***********************************************************************/
@@ -18,13 +17,13 @@ int main() {
 	ContadorVocales calcular;
 
     int contador;
-    char * cadena=lectura.leer("Ingrese oracion: ");
+    char * cadena=lectura.leer("\n Ingrese oracion: ");
 
     strupr(cadena); //comversion de de cadena de minuscula a mayuscula
 
     contador=calcular.contarVocales(cadena);//llamando al metodo de la calse ContadorVocales
 
-    printf("\n\nHay %i Vocales \n\n", contador);
+    printf("\n\n  Hay %i Vocales \n\n", contador);
 
     free(cadena); //liberando la memoria
 

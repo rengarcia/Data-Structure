@@ -1,3 +1,10 @@
+/***********************************************************************
+ *  UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+ * Modulo:  Ingreso.h
+ * Modificacion: Saturday, November 9, 2019
+ * Implementacion: Ejecucion de contador de vocales
+ ***********************************************************************/
+
 #include <iostream>
 #include<stdlib.h>
 #include<conio.h>
@@ -22,7 +29,7 @@ char * Ingreso::leer(char * mensage) {
 
 		caracter[0]= getch();
 
-		if((caracter[0]>=65 && caracter[0]<=90) || (caracter[0]>=97 && caracter[0]<=122))
+		if((caracter[0]>=65 && caracter[0]<=90) || (caracter[0]>=97 && caracter[0]<=122) || caracter[0]==32)
 		{
 			std::cout<<caracter[0];
 			*(lectura+i)=caracter[0];

@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1573352925 source:c:\users\alex\documents\espe\estructura-de-datos-2967\contador_vocales\codigo\main.cpp
+1573412614 source:c:\users\alex\documents\espe\estructura-de-datos-2967\contador_vocales\codigo\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Ingreso.h"
 	"ContadorVocales.h"
 
-1573352384 c:\users\alex\documents\espe\estructura-de-datos-2967\contador_vocales\codigo\ingreso.h
+1573412585 c:\users\alex\documents\espe\estructura-de-datos-2967\contador_vocales\codigo\ingreso.h
 	<iostream>
 	<stdlib.h>
 	<conio.h>
