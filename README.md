@@ -1,2 +1,3 @@
-# Estructura-de-datos-2967		 ## Welcome to GitHub Pages
+# Estructura-de-datos-2967		
+
  Trabajos realizados el primer parcial 
