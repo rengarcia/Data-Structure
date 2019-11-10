@@ -1,0 +1,163 @@
+solucion 5*5
+
+Solucion N 1
+R . . . . 
+. R . . . 
+. . R . . 
+. . . R . 
+. . . . R 
+
+Solucion N 2
+R . . . . 
+. R . . . 
+. . . . R 
+. . R . . 
+. . . R . 
+
+Solucion N 3
+R . . . . 
+. R . . . 
+. . . R . 
+. . . . R 
+. . R . . 
+
+Solucion N 4
+R . . . . 
+. . . R . 
+. R . . . 
+. . R . . 
+. . . . R 
+
+Solucion N 5
+R . . . . 
+. . . R . 
+. R . . . 
+. . . . R 
+. . R . . 
+
+Solucion N 6
+R . . . . 
+. . R . . 
+. . . R . 
+. R . . . 
+. . . . R 
+
+Solucion N 7
+R . . . . 
+. . R . . 
+. . . . R 
+. R . . . 
+. . . R . 
+
+Solucion N 8
+. . R . . 
+R . . . . 
+. R . . . 
+. . . R . 
+. . . . R 
+
+Solucion N 9
+. . . . R 
+R . . . . 
+. R . . . 
+. . R . . 
+. . . R . 
+
+Solucion N 10
+. . R . . 
+R . . . . 
+. . . R . 
+. R . . . 
+. . . . R 
+
+Solucion N 11
+. . R . . 
+R . . . . 
+. . . . R 
+. R . . . 
+. . . R . 
+
+Solucion N 12
+. . . R . 
+R . . . . 
+. . R . . 
+. . . . R 
+. R . . . 
+
+Solucion N 13
+. R . . . 
+. . R . . 
+R . . . . 
+. . . R . 
+. . . . R 
+
+Solucion N 14
+. R . . . 
+. . . R . 
+R . . . . 
+. . R . . 
+. . . . R 
+
+Solucion N 15
+. R . . . 
+. . . R . 
+R . . . . 
+. . . . R 
+. . R . . 
+
+Solucion N 16
+. . . R . 
+. . . . R 
+R . . . . 
+. R . . . 
+. . R . . 
+
+Solucion N 17
+. . . . R 
+. . R . . 
+R . . . . 
+. . . R . 
+. R . . . 
+
+Solucion N 18
+. R . . . 
+. . . . R 
+. . R . . 
+R . . . . 
+. . . R . 
+
+Solucion N 19
+. . . . R 
+. R . . . 
+. . . R . 
+R . . . . 
+. . R . . 
+
+Solucion N 20
+. . R . . 
+. . . R . 
+. . . . R 
+R . . . . 
+. R . . . 
+
+Solucion N 21
+. R . . . 
+. . R . . 
+. . . R . 
+. . . . R 
+R . . . . 
+
+Solucion N 22
+. . . R . 
+. R . . . 
+. . . . R 
+. . R . . 
+R . . . . 
+
+Solucion N 23
+. . R . . 
+. . . . R 
+. R . . . 
+. . . R . 
+R . . . . 
+
