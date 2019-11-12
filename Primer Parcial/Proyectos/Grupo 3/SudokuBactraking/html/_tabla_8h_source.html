@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto: Fichero Fuente Tabla.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto
+   &#160;<span id="projectnumber">1.2</span>
+   </div>
+   <div id="projectbrief">Resolucion de Sudoku-Backtracking</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Tabla.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_tabla_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***********************************************************************</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Module:  Tabla.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Author:  RODRIGO</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Modified: miércoles, 6 de noviembre de 2019 02:01:52</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Purpose: Declaration of the class Tabla</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> ***********************************************************************/</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#if !defined(__Class_Diagram_1_Tabla_h)</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define __Class_Diagram_1_Tabla_h</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_operaciones_8h.html">Operaciones.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_tabla.html">   12</a></span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span><a class="code" href="class_tabla.html">Tabla</a> : <span class="keyword">public</span> <a class="code" href="class_operaciones.html">Operaciones</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#a3032f601c70be7fbadbc6de4e5d8e2c6">buscarLugar</a>(<span class="keywordtype">int</span>&amp; fila, <span class="keywordtype">int</span>&amp; col);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#a6eb0ca03124718a91c6145c9bb29872b">comprobar</a>(<span class="keywordtype">int</span> fila, <span class="keywordtype">int</span> col, <span class="keywordtype">int</span> num);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;   <span class="keywordtype">void</span> <a class="code" href="class_tabla.html#aa5e3142a451fcd892c56b4c7a95acb09">mostrarT</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;   <span class="keywordtype">int</span>** <a class="code" href="class_tabla.html#aeb7be190d4afa1546dc4e192a29061fe">getTablero</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;   <span class="keywordtype">void</span> <a class="code" href="class_tabla.html#a2bde4b3a101add916a62275579090b1e">setTablero</a>(<span class="keywordtype">int</span>** newTablero);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;   <a class="code" href="class_tabla.html#aa06ea30404464606d6f3b71c66a78809">Tabla</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <a class="code" href="class_tabla.html#a66b3d75f8c5b93b1cdaa7896485109b1">~Tabla</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#abb9316bb27599050c2d1423c58f2cf58">Sudoku</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#a7633b7c959438d92a5c673a8741b0c82">UtilizadoEnFila</a>(<span class="keywordtype">int</span> fila, <span class="keywordtype">int</span> num);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#a8bbd9f161874cfd25499149bd9aec3c3">UtilizadoEnColumna</a>(<span class="keywordtype">int</span> col, <span class="keywordtype">int</span> num);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keywordtype">bool</span> <a class="code" href="class_tabla.html#ab27ae4c9b4bd4584515148ad5dcf5919">UtilizadoEnSudoku</a>(<span class="keywordtype">int</span> inicioFila, <span class="keywordtype">int</span> inicioColumna, <span class="keywordtype">int</span> num);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;   <span class="keywordtype">int</span>** tablero;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_tabla_html_aa06ea30404464606d6f3b71c66a78809"><div class="ttname"><a href="class_tabla.html#aa06ea30404464606d6f3b71c66a78809">Tabla::Tabla</a></div><div class="ttdeci">Tabla()</div><div class="ttdoc">Constructor de la Clase.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:66</div></div>
+<div class="ttc" id="aclass_tabla_html_a6eb0ca03124718a91c6145c9bb29872b"><div class="ttname"><a href="class_tabla.html#a6eb0ca03124718a91c6145c9bb29872b">Tabla::comprobar</a></div><div class="ttdeci">bool comprobar(int fila, int col, int num)</div><div class="ttdoc">Comprueba si cumple las condiciones de Sudoku.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:34</div></div>
+<div class="ttc" id="aclass_tabla_html_a8bbd9f161874cfd25499149bd9aec3c3"><div class="ttname"><a href="class_tabla.html#a8bbd9f161874cfd25499149bd9aec3c3">Tabla::UtilizadoEnColumna</a></div><div class="ttdeci">bool UtilizadoEnColumna(int col, int num)</div><div class="ttdoc">Comprueba si se encuentra el numero en la columna.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:110</div></div>
+<div class="ttc" id="aclass_operaciones_html"><div class="ttname"><a href="class_operaciones.html">Operaciones</a></div><div class="ttdef"><b>Definition:</b> Operaciones.h:17</div></div>
+<div class="ttc" id="aclass_tabla_html_a2bde4b3a101add916a62275579090b1e"><div class="ttname"><a href="class_tabla.html#a2bde4b3a101add916a62275579090b1e">Tabla::setTablero</a></div><div class="ttdeci">void setTablero(int **newTablero)</div><div class="ttdoc">Camcio de tablero.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:58</div></div>
+<div class="ttc" id="aclass_tabla_html_a3032f601c70be7fbadbc6de4e5d8e2c6"><div class="ttname"><a href="class_tabla.html#a3032f601c70be7fbadbc6de4e5d8e2c6">Tabla::buscarLugar</a></div><div class="ttdeci">bool buscarLugar(int &amp;fila, int &amp;col)</div><div class="ttdoc">Busaca la posisicon donde puede hacer el cambio.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:21</div></div>
+<div class="ttc" id="a_operaciones_8h_html"><div class="ttname"><a href="_operaciones_8h.html">Operaciones.h</a></div></div>
+<div class="ttc" id="aclass_tabla_html_a66b3d75f8c5b93b1cdaa7896485109b1"><div class="ttname"><a href="class_tabla.html#a66b3d75f8c5b93b1cdaa7896485109b1">Tabla::~Tabla</a></div><div class="ttdeci">~Tabla()</div><div class="ttdoc">Destructor de la clase.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:75</div></div>
+<div class="ttc" id="aclass_tabla_html_abb9316bb27599050c2d1423c58f2cf58"><div class="ttname"><a href="class_tabla.html#abb9316bb27599050c2d1423c58f2cf58">Tabla::Sudoku</a></div><div class="ttdeci">bool Sudoku()</div><div class="ttdoc">Comienza a resolver el sudoku usasando Backtraking.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:80</div></div>
+<div class="ttc" id="aclass_tabla_html_ab27ae4c9b4bd4584515148ad5dcf5919"><div class="ttname"><a href="class_tabla.html#ab27ae4c9b4bd4584515148ad5dcf5919">Tabla::UtilizadoEnSudoku</a></div><div class="ttdeci">bool UtilizadoEnSudoku(int inicioFila, int inicioColumna, int num)</div><div class="ttdoc">Comprueba si se encuentra el numero en la tanto en fila como en columna.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:118</div></div>
+<div class="ttc" id="aclass_tabla_html_aeb7be190d4afa1546dc4e192a29061fe"><div class="ttname"><a href="class_tabla.html#aeb7be190d4afa1546dc4e192a29061fe">Tabla::getTablero</a></div><div class="ttdeci">int ** getTablero(void)</div><div class="ttdoc">Obtiene tablero.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:50</div></div>
+<div class="ttc" id="aclass_tabla_html_a7633b7c959438d92a5c673a8741b0c82"><div class="ttname"><a href="class_tabla.html#a7633b7c959438d92a5c673a8741b0c82">Tabla::UtilizadoEnFila</a></div><div class="ttdeci">bool UtilizadoEnFila(int fila, int num)</div><div class="ttdoc">Comprueba si se encuentra el numero en la fila.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:100</div></div>
+<div class="ttc" id="aclass_tabla_html_aa5e3142a451fcd892c56b4c7a95acb09"><div class="ttname"><a href="class_tabla.html#aa5e3142a451fcd892c56b4c7a95acb09">Tabla::mostrarT</a></div><div class="ttdeci">void mostrarT()</div><div class="ttdoc">Muestra el Sudoku y guarda informacion en el .csv.</div><div class="ttdef"><b>Definition:</b> Tabla.cpp:41</div></div>
+<div class="ttc" id="aclass_tabla_html"><div class="ttname"><a href="class_tabla.html">Tabla</a></div><div class="ttdef"><b>Definition:</b> Tabla.h:12</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

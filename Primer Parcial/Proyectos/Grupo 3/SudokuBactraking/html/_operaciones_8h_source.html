@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto: Fichero Fuente Operaciones.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto
+   &#160;<span id="projectnumber">1.2</span>
+   </div>
+   <div id="projectbrief">Resolucion de Sudoku-Backtracking</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Operaciones.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_operaciones_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/***********************************************************************</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> * Module:  Operaciones.h</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Author:  RODRIGO</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * Modified: miércoles, 6 de noviembre de 2019 01:54:07</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * Purpose: Declaration of the class Operaciones</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> ***********************************************************************/</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#if !defined(__Class_Diagram_1_Operaciones_h)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define __Class_Diagram_1_Operaciones_h</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_operaciones.html">   17</a></span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span><a class="code" href="class_operaciones.html">Operaciones</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_operaciones.html#a5e32792f8a986c410b67c3778eb4c716">Sudoku</a>()=0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_operaciones.html#a1fddb200e7aad00be932526ac33b1740">UtilizadoEnFila</a>(<span class="keywordtype">int</span> fila, <span class="keywordtype">int</span> num)=0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_operaciones.html#af8f8bc7c1f65102c6bf270ce78640cfa">UtilizadoEnColumna</a>(<span class="keywordtype">int</span> col, <span class="keywordtype">int</span> num)=0;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;   <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_operaciones.html#aadd82a827149a553ea65d9f7d20a1d39">UtilizadoEnSudoku</a>(<span class="keywordtype">int</span> inicioFila, <span class="keywordtype">int</span> inicioColumna, <span class="keywordtype">int</span> num)=0;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_operaciones_html_aadd82a827149a553ea65d9f7d20a1d39"><div class="ttname"><a href="class_operaciones.html#aadd82a827149a553ea65d9f7d20a1d39">Operaciones::UtilizadoEnSudoku</a></div><div class="ttdeci">virtual bool UtilizadoEnSudoku(int inicioFila, int inicioColumna, int num)=0</div><div class="ttdoc">Comprueba si se encuentra el numero en la tanto en fila como en columna.</div></div>
+<div class="ttc" id="aclass_operaciones_html_af8f8bc7c1f65102c6bf270ce78640cfa"><div class="ttname"><a href="class_operaciones.html#af8f8bc7c1f65102c6bf270ce78640cfa">Operaciones::UtilizadoEnColumna</a></div><div class="ttdeci">virtual bool UtilizadoEnColumna(int col, int num)=0</div><div class="ttdoc">Comprueba si se encuentra el numero en la columna.</div></div>
+<div class="ttc" id="aclass_operaciones_html"><div class="ttname"><a href="class_operaciones.html">Operaciones</a></div><div class="ttdef"><b>Definition:</b> Operaciones.h:17</div></div>
+<div class="ttc" id="aclass_operaciones_html_a1fddb200e7aad00be932526ac33b1740"><div class="ttname"><a href="class_operaciones.html#a1fddb200e7aad00be932526ac33b1740">Operaciones::UtilizadoEnFila</a></div><div class="ttdeci">virtual bool UtilizadoEnFila(int fila, int num)=0</div><div class="ttdoc">Comprueba si se encuentra el numero en la fila.</div></div>
+<div class="ttc" id="aclass_operaciones_html_a5e32792f8a986c410b67c3778eb4c716"><div class="ttname"><a href="class_operaciones.html#a5e32792f8a986c410b67c3778eb4c716">Operaciones::Sudoku</a></div><div class="ttdeci">virtual bool Sudoku()=0</div><div class="ttdoc">Comienza a resolver el sudoku usasando Backtraking.</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>
