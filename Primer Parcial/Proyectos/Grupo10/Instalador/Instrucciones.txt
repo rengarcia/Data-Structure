@@ -1,0 +1,8 @@
+Instrucciones de Instalador
+
+1) Abrir QR
+2) Leer con el telefono el codigo QR para obtener el serial de la licencia del programa
+3) Abrir Torres de Hanoi.exe como administrador
+4) Aceptar condiciones de licencia
+5) Usar el serial obtenido en el codigo QR e ingresar en la casilla requerida
+6) Disfrute del programa

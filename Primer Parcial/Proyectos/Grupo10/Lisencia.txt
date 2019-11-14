@@ -1,0 +1,18 @@
+	Torres de Hanoi
+     
+     +         +	+
+   +++++       +	+
+ +++++++++     +	+
+
+       Lisencia de uso
+****************************************
+
+Este programa es de uso educativo 
+
+No utilizar de forma comercial
+
+Prohibida la venta y copia del mismo sin autorización de los autores
+
+Diego Zurita 
+
+Daniel Avila
