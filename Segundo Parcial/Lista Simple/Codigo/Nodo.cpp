@@ -1,7 +1,7 @@
 /***********************************************************************
  * Module:  Nodo.cpp
  * Author:  K-vn-
- * Modified: miércoles, 13 de noviembre de 2019 10:41:23
+ * Modified: miÃ©rcoles, 13 de noviembre de 2019 10:41:23
  * Purpose: Implementation of the class Nodo
  ***********************************************************************/
 
@@ -77,7 +77,7 @@ Nodo::~Nodo()
    // TODO : implement
 }
 
-Nodo::Nodo(Persona a, Nodo *_sig) {
-	persona = a;
+Nodo::Nodo(Persona _persona, Nodo *_sig) {
+	persona = _persona;
 	siguiente = _sig;
 }
