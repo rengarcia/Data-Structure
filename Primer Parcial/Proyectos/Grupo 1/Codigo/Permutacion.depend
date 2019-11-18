@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1573137702 source:c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\main.cpp
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	"PermutacionLetra.h"
+	"Ingresar.h"
+	"Arreglo.h"
+
+1573132306 c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\permutacionletra.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<cstdlib>
+	<cmath>
+
+1573132306 source:c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\permutacionletra.cpp
+	"PermutacionLetra.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<cmath>
+
+1573132306 c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\arreglo.h
+
+1573130216 c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1573132258 source:c:\users\alex\documents\espe\proyecto1_estructuradedatos\permutacion\arreglo.cpp
+	"Arreglo.h"
+	<stdlib.h>
+	<stdio.h>
+
+1573132256 source:c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\arreglo.cpp
+	"Arreglo.h"
+	<stdlib.h>
+	<stdio.h>
+
+1573132305 c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\arreglo.h
+
+1573133545 source:c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\main.cpp
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	"PermutacionLetra.h"
+	"Ingresar.h"
+	"Arreglo.h"
+
+1573132305 c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\permutacionletra.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<cstdlib>
+	<cmath>
+
+1573130214 c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\ingresar.h
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<stdio.h>
+
+1573132305 source:c:\users\mabel\documents\1. espe\3. semestre\proyecto1_estructuradedatos\permutacion\permutacionletra.cpp
+	"PermutacionLetra.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<cmath>
+
