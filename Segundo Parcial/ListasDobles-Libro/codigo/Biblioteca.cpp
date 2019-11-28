@@ -1,7 +1,7 @@
 /***********************************************************************
  * Module:  Biblioteca.cpp
  * Author:  NICKOLAS
- * Modified: sábado, 23 de noviembre de 2019 20:20:06
+ * Modified: sÃ¡bado, 23 de noviembre de 2019 20:20:06
  * Purpose: Implementation of the class Biblioteca
  ***********************************************************************/
 
@@ -111,12 +111,12 @@ void Biblioteca::insertarFinal(Nodo*& nodo, Libro libro)
   newNodo->setlibro(libro);
   Nodo *aux=nodo;
   Nodo *aux2;
-  while(aux==NULL)
+  while(aux!=NULL)
   {
       aux2=aux;
-      aux1=aux->getSiguiente();
+      aux=aux->getsiguiente();
   }
-  if(lista==aux1)
+  if(aux==nodo)
    {
        nodo=newNodo;
        nodo->setsiguiente(NULL);
