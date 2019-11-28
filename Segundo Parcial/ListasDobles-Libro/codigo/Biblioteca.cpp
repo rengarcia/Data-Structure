@@ -105,7 +105,26 @@ void Biblioteca::insertarEntre(Nodo*& Nodo, Libro libro)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Biblioteca::insertarFinal(Nodo*& Nodo, Libro libro)
+void Biblioteca::insertarFinal(Nodo*& nodo, Libro libro)
 {
-   // TODO : implement
+  Nodo *newNodo = new Nodo();
+  newNodo->setlibro(libro);
+  Nodo *aux=nodo;
+  Nodo *aux2;
+  while(aux==NULL)
+  {
+      aux2=aux;
+      aux1=aux->getSiguiente();
+  }
+  if(lista==aux1)
+   {
+       nodo=newNodo;
+       nodo->setsiguiente(NULL);
+       nodo->setanterior(NULL);
+   }
+   else{
+        aux2->setsiguiente(newNodo);
+        newNodo->setanterior(aux2);
+   }
+   newNodo->setsiguiente(NULL);
 }

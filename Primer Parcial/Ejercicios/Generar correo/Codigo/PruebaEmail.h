@@ -47,7 +47,6 @@ string PruebaEmail::genEmail(string nombre, string apellido)
 	}
 	return min;
 }
-
 PruebaEmail::PruebaEmail()
 {
 }
