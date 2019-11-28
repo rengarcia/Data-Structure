@@ -1,7 +1,7 @@
 /***********************************************************************
  * Module:  Biblioteca.h
  * Author:  NICKOLAS
- * Modified: s·bado, 23 de noviembre de 2019 20:20:06
+ * Modified: s√°bado, 23 de noviembre de 2019 20:20:06
  * Purpose: Declaration of the class Biblioteca
  ***********************************************************************/
 
@@ -17,7 +17,7 @@ public:
    void Reservarlibro(void);
    void insertarInicio(Nodo*& Nodo, Libro libro);
    void borrarLibro(int idLibro);
-   void buscarLibro(int idLibro);
+   int buscarLibro(Nodo *&nodo, int idLibro)
    void imprimir(void);
    void modificarLibro(int idLibro);
    void insertarEntre(Nodo*& Nodo, Libro libro);
