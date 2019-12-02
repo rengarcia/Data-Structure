@@ -19,7 +19,7 @@ public:
    void borrarLibro(int idLibro);
    int buscarLibro(Nodo *&nodo, int idLibro)
    void imprimir(void);
-   void modificarLibro(int idLibro);
+   void modificarLibro(int idLibro,Nodo*&);
    void insertarEntre(Nodo*& Nodo, Libro libro);
    void insertarFinal(Nodo*& Nodo, Libro libro);
 
