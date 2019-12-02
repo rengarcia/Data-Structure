@@ -20,7 +20,7 @@ public:
    int buscarLibro(Nodo *&nodo, int idLibro)
    void imprimir(void);
    void modificarLibro(int idLibro,Nodo*&);
-   void insertarEntre(Nodo*& Nodo, Libro libro);
+   void insertarEntre(Nodo*& Nodo, Libro libro, int posicion);
    void insertarFinal(Nodo*& Nodo, Libro libro);
 
 protected:
