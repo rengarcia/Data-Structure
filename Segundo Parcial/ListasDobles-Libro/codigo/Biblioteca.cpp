@@ -40,9 +40,28 @@ void Biblioteca::insertarInicio(Nodo*& Nodo, Libro libro)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Biblioteca::borrarLibro(int idLibro)
+void Biblioteca::borrarLibro(int idLibro, Nodo*& nodo)
 {
-   // TODO : implement
+   Nodo *aux = new Nodo();
+   aux = nodo;
+   int pos = 0;
+   if(aux == NULL) {
+      printf("No se puede eliminar --- Lista Vacia");
+      return;
+   } 
+
+   while(aux!=NULL) {
+      pos++;
+      
+      if(aux->getlibro().getidLibro() == idLibro) {	
+      	 aux->getAnterior()->setsiguiente(aux->getSiguiente());
+      	 aux->getSiguiente()->setanterior(aux->getAnterior());
+      	 delete aux;
+      	 return;
+      }
+      aux = aux->getSiguiente();
+   }
+   printf("No existe el id", idLibro);
 }
 
 ////////////////////////////////////////////////////////////////////////
