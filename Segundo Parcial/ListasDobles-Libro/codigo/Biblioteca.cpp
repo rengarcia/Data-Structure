@@ -194,7 +194,7 @@ void Biblioteca::modificarLibro(int idLibro, Nodo*& nodo)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Biblioteca::insertarEntre(Nodo*& Nodo, Libro libro)
+void Biblioteca::insertarEntre(Nodo*& Nodo, Libro libro, int posicion)
 {
   Nodo *newNodo = new Nodo();
   newNodo->setlibro(libro);
