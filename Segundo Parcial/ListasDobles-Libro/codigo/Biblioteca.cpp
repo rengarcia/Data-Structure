@@ -27,9 +27,25 @@ void Biblioteca::Reservarlibro(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Biblioteca::insertarInicio(Nodo*& Nodo, Libro libro)
+void Biblioteca::insertarInicio(Nodo*& nodo, Libro libro)
 {
-   // TODO : implement
+	Nodo *newNodo=new Nodo();
+    Nodo *aux=nodo;
+    
+    if(aux==NULL){
+        newNodo->setlibro(libro);
+        newNodo->setsiguiente(NULL);
+        newNodo->setanterior(NULL);
+        nodo=newNodo;
+        
+    }else{
+		
+        newNodo->setlibro(libro);
+        newNodo->setsiguiente(libro);
+        newNodo->setanterior(NULL);
+        aux->setanterior(newNodo);
+        nodo=newNodo;
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////

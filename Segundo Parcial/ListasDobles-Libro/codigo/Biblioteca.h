@@ -15,7 +15,7 @@ class Biblioteca
 {
 public:
    void Reservarlibro(void);
-   void insertarInicio(Nodo*& Nodo, Libro libro);
+   void insertarInicio(Nodo*& nodo, Libro libro);
    void borrarLibro(int idLibro,Nodo*&);
    int buscarLibro(Nodo *&nodo, int idLibro)
    void imprimir(void);
