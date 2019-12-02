@@ -196,7 +196,28 @@ void Biblioteca::modificarLibro(int idLibro, Nodo*& nodo)
 
 void Biblioteca::insertarEntre(Nodo*& Nodo, Libro libro)
 {
-   // TODO : implement
+  Nodo *newNodo = new Nodo();
+  newNodo->setlibro(libro);
+  Nodo *aux=nodo;
+  Nodo *aux2, aux3;
+  if(posicion==1){
+  	insertarInicio(nodo, libro);
+  }else{
+  for(int i = 1; i<=posicion; i++){
+  	if(aux!=NULL){
+      aux2=aux;
+      aux=aux->getsiguiente();
+	  }
+  }if(aux==NULL){
+  	insertarFinal(nodo,libro)
+  }else{
+  		aux2=aux.getAnterior();
+  		aux3=aux;
+       nodo=newNodo;
+       aux2->setsiguiente(nodo);
+       nodo->setsiguiente(aux3);
+  }
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////
