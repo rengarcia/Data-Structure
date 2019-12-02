@@ -95,9 +95,59 @@ void Biblioteca::imprimir(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Biblioteca::modificarLibro(int idLibro)
+void Biblioteca::modificarLibro(int idLibro, Nodo*& nodo)
 {
-   // TODO : implement
+   string newTitulo;
+   Autor newAutor;
+   string nombreAutor;
+   string newFechaPublicacion;
+   string newGenero;
+   int newEdicion;
+   string newEditorial;
+   int newPaginas;
+   string newLugarPublicacion;	
+	Nodo *aux = new Nodo();
+    aux = nodo;
+    int pos = 0;
+   if(aux == NULL) {
+      printf("Lista Vacia");
+      return;
+   } 
+
+   while(aux!=NULL) {
+      pos++;
+      
+      if(aux->getlibro().getidLibro() == idLibro) {
+      	
+      	cout << "Ingrese titulo del nuevo libro" <<endl;
+      	cin >> newTitulo;
+      	aux->getlibro().settitulo(newTitulo);
+      	cout << "Ingrese fecha de publicacion del nuevo libro" <<endl;
+      	cin >> newFechaPublicacion;
+      	aux->getlibro().setfechaPublicacion(newFechaPublicacion);
+      	cout << "Ingrese edicion del nuevo libro" <<endl;
+      	cin >> newEdicion;
+      	aux->getlibro().setedicion(newEdicion);
+      	cout << "Ingrese editorial del nuevo libro" <<endl;
+      	cin >> newEditorial;
+      	aux->getlibro().seteditorial(newEditorial);
+      	cout << "Ingrese paginas del nuevo libro" <<endl;
+      	cin >> newPaginas;
+      	aux->getlibro().setpaginas(newPaginas);
+      	cout << "Ingrese lugar de publicacion del nuevo libro" <<endl;
+      	cin >> newLugarPublicacion;
+      	aux->getlibro().setlugarPublicacion(newLugarPublicacion);
+      	cout << "Ingrese genero del nuevo libro" <<endl;
+      	cin >> newGenero;
+      	aux->getlibro().setgenero(newGenero);
+    /*  	cout << "Ingrese el autor del nuevo libro" <<endl;
+      	cin >> nombreAutor;
+      	aux->getlibro().getautor().getautor().getautor().*/
+      //   return;
+      }
+     aux = aux->getSiguiente();
+   }
+   printf("No existe el id", idLibro);
 }
 
 ////////////////////////////////////////////////////////////////////////
