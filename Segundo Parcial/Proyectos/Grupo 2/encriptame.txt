@@ -1,0 +1,148 @@
+Jugador: japs
+
+		Numeros comidos.
+
+ ==> 8, 7, 0, 0, 5, 1, 1, . 
+
+Su Puntaje es: 3
+
+----------------------------------------------------
+Jugador: JAPS
+
+		Numeros comidos.
+
+ ==> 5, 6, 9, 3, 8, 8, 7, . 
+
+Su Puntaje es: 4
+
+----------------------------------------------------
+Jugador: QWE
+
+		Numeros comidos.
+
+ ==> 6, 6, 3, 8, 0, 7, . 
+
+Su Puntaje es: 0
+
+----------------------------------------------------
+Jugador: japs
+
+		Numeros comidos.
+
+ ==> 6, 8, 3, 3, 3, 2, 6, 7, 5, 1, 6, 5, 0, . 
+
+Su Puntaje es: 2
+
+----------------------------------------------------
+Jugador: 
+
+		Numeros comidos.
+
+ ==> 5, 1, 5, 8, 1, 8, . 
+
+Su Puntaje es: 1
+
+----------------------------------------------------
+Jugador: 
+
+		Numeros comidos.
+
+ ==> 9, 5, 3, 3, 6, . 
+
+Su Puntaje es: 1
+
+----------------------------------------------------
+Jugador: hjk
+
+		Numeros comidos.
+
+ ==> 9, 3, 3, 5, 2, . 
+
+Su Puntaje es: 0
+
+----------------------------------------------------
+Jugador: tyu
+
+		Numeros comidos.
+
+ ==> 0, 3, 3, 8, 5, . 
+
+Su Puntaje es: 0
+
+----------------------------------------------------
+Jugador: 
+
+		Numeros comidos.
+
+ ==> 8, 0, 9, 6, 5, . 
+
+Su Puntaje es: 0
+
+----------------------------------------------------
+Jugador: ert
+
+Usted ha finalizado el juego sin haber comido ningun numero.
+
+Jugador: jkl
+
+		Numeros Acertados.
+
+ ==> 8, 6, 7, 4, 8, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: yui
+
+		Numeros Acertados.
+
+ ==> 4, 2, 9, 2, 7, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: hjk
+
+		Numeros Acertados.
+
+ ==> 0, 2, 5, 1, 5, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: ghj
+
+		Numeros Acertados.
+
+ ==> 2, 3, 8, 7, 7, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: fhg
+
+		Numeros Acertados.
+
+ ==> 1, 3, 0, 4, 2, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: fgdf
+
+		Numeros Acertados.
+
+ ==> 3, 3, 2, 3, 4, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
+Jugador: asd
+
+		Numeros Acertados.
+
+ ==> 2, 1, 5, 4, 8, . 
+
+PUNTAJE: 0
+
+----------------------------------------------------
