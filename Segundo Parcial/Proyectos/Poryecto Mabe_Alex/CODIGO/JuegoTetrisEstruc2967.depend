@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1576433608 source:c:\users\alex\desktop\juegotetrisestruc2967\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	"Cifrado.h"
+	"PersonalLibrary.h"
+	"ListaDoble.h"
+
+1576433608 c:\users\alex\desktop\juegotetrisestruc2967\personallibrary.h
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	<pthread.h>
+	<fstream>
+
+1576435870 c:\users\alex\desktop\juegotetrisestruc2967\listadoble.h
+	"Nodo.h"
+	<iostream>
+
+1576435121 c:\users\alex\desktop\juegotetrisestruc2967\nodo.h
+
+1576166634 source:c:\users\alex\desktop\juegotetrisestruc2967\cifrado.cpp
+	"Cifrado.h"
+
+1576146532 c:\users\alex\desktop\juegotetrisestruc2967\cifrado.h
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<string>
+
+1576435121 source:c:\users\alex\desktop\juegotetrisestruc2967\nodo.cpp
+	"Nodo.h"
+
