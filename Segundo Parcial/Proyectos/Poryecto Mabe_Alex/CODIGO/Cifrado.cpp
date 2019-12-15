@@ -1,3 +1,11 @@
+/**************************************************************
+ *	Universidad de las Fuerzas Armadas ESPE
+ *	Maria Belen Ceron, Alex Chicaiza
+ *	NRC: 2967
+ *	Fecha creacion: 08/11/2019
+ *	Fecha ultima modificacion:	12/12/2019
+ *	Docente: Ing. Fernando Solis
+***************************************************************/
 #include "Cifrado.h"
 
 void Cifrado::encriptado() {

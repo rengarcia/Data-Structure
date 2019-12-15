@@ -22,13 +22,11 @@
 		</Compiler>
 		<Unit filename="Cifrado.cpp" />
 		<Unit filename="Cifrado.h" />
-		<Unit filename="ListaDoble.cpp" />
 		<Unit filename="ListaDoble.h" />
 		<Unit filename="Nodo.cpp" />
 		<Unit filename="Nodo.h" />
 		<Unit filename="PersonalLibrary.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="menus.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -94,3 +94,9 @@ solucion *
 solucion *
 
 560
+solucion *
+
+553
+solucion *
+
+100
