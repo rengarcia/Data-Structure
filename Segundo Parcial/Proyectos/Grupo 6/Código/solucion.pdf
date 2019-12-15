@@ -1,0 +1,218 @@
+%PDF-1.1
+
+1 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Courier
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+2 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Courier-Bold
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+3 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Courier-Oblique
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+4 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Courier-BoldOblique
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+5 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Helvetica
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+6 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Helvetica-Bold
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+7 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Helvetica-Oblique
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+8 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Helvetica-BoldOblique
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+9 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Symbol
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+10 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Times-Roman
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+11 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Times-Bold
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+12 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Times-Italic
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+13 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /Times-BoldItalic
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+14 0 obj
+<<
+   /Type     /Font
+   /Subtype  /Type1
+   /BaseFont /ZapfDingbats
+   /Encoding /WinAnsiEncoding
+>>
+endobj
+
+15 0 obj
+<<
+   /Font <<
+      /F1 1 0 R
+      /F2 2 0 R
+      /F3 3 0 R
+      /F4 4 0 R
+      /F5 5 0 R
+      /F6 6 0 R
+      /F7 7 0 R
+      /F8 8 0 R
+      /F9 9 0 R
+      /F10 10 0 R
+      /F11 11 0 R
+      /F12 12 0 R
+      /F13 13 0 R
+      /F14 14 0 R
+   >>
+>>
+endobj
+
+16 0 obj
+<<
+   /Type /Catalog
+   /Pages 17 0 R
+>>
+endobj
+
+17 0 obj
+<<
+   /Type /Pages
+   /MediaBox [ 0 0 612 792 ]
+   /Count 1
+   /Kids [ 18 0 R ]
+>>
+endobj
+
+18 0 obj
+<<
+   /Type /Page
+   /Parent 17 0 R
+   /Contents 19 0 R
+   /Resources 15 0 R
+>>
+endobj
+
+19 0 obj
+<<
+   /Length 135
+>>
+stream
+BT
+/F5 12 Tf
+/F5 12 Tf
+1 0 0 1 100 745 Tm
+(6                    6                    9                    8                    5) Tj
+ET
+endstream
+endobj
+
+xref
+0 20
+0000000000 65535 f 
+0000000010 00000 n 
+0000000123 00000 n 
+0000000241 00000 n 
+0000000362 00000 n 
+0000000487 00000 n 
+0000000602 00000 n 
+0000000722 00000 n 
+0000000845 00000 n 
+0000000972 00000 n 
+0000001084 00000 n 
+0000001202 00000 n 
+0000001319 00000 n 
+0000001438 00000 n 
+0000001561 00000 n 
+0000001680 00000 n 
+0000001955 00000 n 
+0000002013 00000 n 
+0000002113 00000 n 
+0000002210 00000 n 
+trailer
+<<
+   /Size 20
+   /Root 16 0 R
+>>
+startxref
+2401
+%%EOF
