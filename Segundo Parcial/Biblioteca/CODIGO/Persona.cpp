@@ -1,0 +1,125 @@
+/***********************************************************************
+ * Module:  Persona.cpp
+ * Author:  ALEX
+ * Modified: Saturday, December 14, 2019 8:55:32 PM
+ * Purpose: Implementation of the class Persona
+ ***********************************************************************/
+
+#include "Persona.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::Persona()
+// Purpose:    Implementation of Persona::Persona()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Persona::Persona()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::~Persona()
+// Purpose:    Implementation of Persona::~Persona()
+// Return:
+////////////////////////////////////////////////////////////////////////
+
+Persona::~Persona()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getId()
+// Purpose:    Implementation of Persona::getId()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Persona::getId(void)
+{
+   return id;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setId(std::string newId)
+// Purpose:    Implementation of Persona::setId()
+// Parameters:
+// - newId
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setId(std::string newId)
+{
+   id = newId;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getNombre()
+// Purpose:    Implementation of Persona::getNombre()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Persona::getNombre(void)
+{
+   return nombre;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setNombre(std::string newNombre)
+// Purpose:    Implementation of Persona::setNombre()
+// Parameters:
+// - newNombre
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setNombre(std::string newNombre)
+{
+   nombre = newNombre;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getApellido()
+// Purpose:    Implementation of Persona::getApellido()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Persona::getApellido(void)
+{
+   return apellido;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setApellido(std::string newApellido)
+// Purpose:    Implementation of Persona::setApellido()
+// Parameters:
+// - newApellido
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setApellido(std::string newApellido)
+{
+   apellido = newApellido;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getCorreo()
+// Purpose:    Implementation of Persona::getCorreo()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Persona::getCorreo(void)
+{
+   return correo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setCorreo(std::string newCorreo)
+// Purpose:    Implementation of Persona::setCorreo()
+// Parameters:
+// - newCorreo
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setCorreo(std::string newCorreo)
+{
+   correo = newCorreo;
+}

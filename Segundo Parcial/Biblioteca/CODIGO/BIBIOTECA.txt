@@ -1,0 +1,16 @@
+Lista Dobles
+Lista de libros
+////////////////////////////////////////////////////////////////////////
+  IDENTI LIBRO: 1
+  NOMBRE LIBRO: asd
+  IDENTI AUTOR: 12
+  NOMBRE AUTOR: asd asd
+  CORREO AUTOR: @
+  IDENTI. PAIS : 36
+  NOMBRE  PAIS : xz
+  NACIONALIDAD : zxc
+  NUM. PUBLICA.: 23
+  IDENTI EDITORIAL: 36
+  NOMBRE EDITORIAL: zxz
+  CONTAC EDITORIAL: 36
+////////////////////////////////////////////////////////////////////////

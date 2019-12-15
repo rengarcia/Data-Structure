@@ -1,0 +1,101 @@
+/***********************************************************************
+ * Module:  Pais.cpp
+ * Author:  ALEX
+ * Modified: Saturday, December 14, 2019 8:55:50 PM
+ * Purpose: Implementation of the class Pais
+ ***********************************************************************/
+
+#include "Pais.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::Pais()
+// Purpose:    Implementation of Pais::Pais()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Pais::Pais()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::~Pais()
+// Purpose:    Implementation of Pais::~Pais()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Pais::~Pais()
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::getIdPais()
+// Purpose:    Implementation of Pais::getIdPais()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Pais::getIdPais(void)
+{
+   return idPais;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::setIdPais(int newIdPais)
+// Purpose:    Implementation of Pais::setIdPais()
+// Parameters:
+// - newIdPais
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Pais::setIdPais(int newIdPais)
+{
+   idPais = newIdPais;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::getNombrePais()
+// Purpose:    Implementation of Pais::getNombrePais()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Pais::getNombrePais(void)
+{
+   return nombrePais;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::setNombrePais(std::string newNombrePais)
+// Purpose:    Implementation of Pais::setNombrePais()
+// Parameters:
+// - newNombrePais
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Pais::setNombrePais(std::string newNombrePais)
+{
+   nombrePais = newNombrePais;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::getNacionalidad()
+// Purpose:    Implementation of Pais::getNacionalidad()
+// Return:     std::string
+////////////////////////////////////////////////////////////////////////
+
+std::string Pais::getNacionalidad(void)
+{
+   return nacionalidad;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Pais::setNacionalidad(std::string newNacionalidad)
+// Purpose:    Implementation of Pais::setNacionalidad()
+// Parameters:
+// - newNacionalidad
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Pais::setNacionalidad(std::string newNacionalidad)
+{
+   nacionalidad = newNacionalidad;
+}
