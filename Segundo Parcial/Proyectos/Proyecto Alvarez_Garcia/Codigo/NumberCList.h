@@ -27,6 +27,7 @@ public:
 	void insertNode(int data, bool flag);
 	void insertIn(int data, int pos);
 	void updateCList();
+	void deleteNodes(int pos);
 	void printCList();
 	int getNumberOfNodes();
 	void saveInTxt();

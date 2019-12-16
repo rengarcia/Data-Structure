@@ -125,7 +125,7 @@ void VisualMenu(CircularList CList, int posY) {
 				CList.insertNode(0, true);
 
 				while (!GAMEOVER) {
-					Sleep(150);
+					Sleep(60);
 					
 					screen.borrarLinea(29);
 					screen.gotoxy(x, y);
@@ -152,7 +152,7 @@ void VisualMenu(CircularList CList, int posY) {
 						if (CList.getNumberOfNodes() == 26) {
 							GAMEOVER = true;
 						}
-						//CList.updateCList();
+						CList.updateCList();
 						CList.saveInTxt();
 
 						y = 1;
@@ -178,7 +178,6 @@ void VisualMenu(CircularList CList, int posY) {
 						}
 					}
 				}
-				CList.printCList();
 				/*PDF creation*/
 				system("java -jar dist/textToPdf.jar");
 

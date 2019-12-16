@@ -31,22 +31,41 @@ void CircularList::insertIn(int data, int pos) {
 	newNode->previous = current;
 
 	if (current->incoming == nullptr) last = newNode;
-	else current->incoming->previous = newNode;
-	current->incoming = newNode;
+	else {
+		current->incoming->previous = newNode; 
+		current->incoming = newNode;
+	}
 }
 
 void CircularList::updateCList() {
 	NumericNode* current;
 	current = first;
+	int pos = 0;
+	while (current->incoming != nullptr) {
+		if (current->number == (current->incoming)->number) {
+			deleteNodes(pos);
+		}
+		pos++;
+		current = current->incoming;
+	}
+}
 
+void CircularList::deleteNodes(int pos) {
+	NumericNode* actual=first;
+	int auxPos = 0;
 	if (first != nullptr) {
-		while (current) {
-			if (current->number == (current->incoming)->number) {
-				(current->previous)->incoming = (current->incoming)->incoming;
-				((current->incoming)->incoming)->previous = current->previous;
+		if (pos == 0) {
+			first = first->incoming->incoming;
+			first->previous = nullptr;
+		}
+		else {
+			while (pos != auxPos) {
+				actual = actual->incoming;
+				auxPos++;
 			}
-			current = current->incoming;
-		} 
+			actual->previous->incoming = actual->incoming->incoming;
+			actual->incoming->incoming->previous = actual->previous;
+		}
 	}
 }
 
