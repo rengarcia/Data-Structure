@@ -1,0 +1,6 @@
+﻿  ABBI.cpp
+  Cifrado.cpp
+  Musica.cpp
+  Generando código...
+D:\Estructura-de-datos-2967\Tercer Parcial\Proyectos\Ceron_Chicaiza\Traductor\Musica\ABBI.cpp(176): warning C4715: 'ABBI::buscar': no todas las rutas de acceso de control devuelven un valor
+  Musica.vcxproj -> D:\Estructura-de-datos-2967\Tercer Parcial\Proyectos\Ceron_Chicaiza\Traductor\Debug\Musica.exe
