@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML_visual.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Cuadricula.cpp
+  main.cpp
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Menu.h(85,15): warning C4838: conversion from 'USHORT' to 'SHORT' requires a narrowing conversion
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Menu.h(85,17): warning C4838: conversion from 'USHORT' to 'SHORT' requires a narrowing conversion
+  Tablero.cpp
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Tablero.cpp(9,18): warning C4309: 'initializing': truncation of constant value
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Tablero.cpp(10,19): warning C4309: 'initializing': truncation of constant value
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Tablero.cpp(11,20): warning C4309: 'initializing': truncation of constant value
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Tablero.cpp(261,14): warning C4101: 's': unreferenced local variable
+  Validacion.cpp
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Validacion.cpp(5,20): warning C4018: '<': signed/unsigned mismatch
+D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\SFML_visual\Validacion.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  SFML_visual.vcxproj -> D:\Andres\ESPE\ESTRUCTURA DE DATOS\DAVID\SFML Enviroment\SFML_visual\Debug\ProyectoFinal.exe

@@ -1,0 +1,134 @@
+/***********************************************************************
+ * Module:  Cuadricula.cpp
+ * Author:  fleia
+ * Modified: Monday, January 20, 2020 8:49:14 AM
+ * Purpose: Implementation of the class Cuadricula
+ ***********************************************************************/
+
+#include "Cuadricula.h"
+
+ ////////////////////////////////////////////////////////////////////////
+ // Name:       Cuadricula::getX()
+ // Purpose:    Implementation of Cuadricula::getX()
+ // Return:     int
+ ////////////////////////////////////////////////////////////////////////
+
+int Cuadricula::getX()
+{
+	return x;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::setX(int newX)
+// Purpose:    Implementation of Cuadricula::setX()
+// Parameters:
+// - newX
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Cuadricula::setX(int newX)
+{
+	x = newX;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::getY()
+// Purpose:    Implementation of Cuadricula::getY()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+int Cuadricula::getY()
+{
+	return y;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::setY(int newY)
+// Purpose:    Implementation of Cuadricula::setY()
+// Parameters:
+// - newY
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Cuadricula::setY(int newY)
+{
+	y = newY;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::setEspacio(Cuadricula* posicion)
+// Purpose:    Implementation of Cuadricula::setEspacio()
+// Parameters:
+// - posicion
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Cuadricula::setEspacio(Cuadricula* posicion)
+{
+	color = posicion->getColor();
+	pieza = posicion->getPieza();
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::setVacio()
+// Purpose:    Implementation of Cuadricula::setVacio()
+// Return:     int
+////////////////////////////////////////////////////////////////////////
+
+void Cuadricula::setVacio()
+{
+	color = NINGUNO;
+	pieza = VACIO;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::setPiezaYColor(Pieza p, Color c)
+// Purpose:    Implementation of Cuadricula::setPiezaYColor()
+// Parameters:
+// - p
+// - c
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Cuadricula::setPiezaYColor(Pieza p, Color c)
+{
+	pieza = p;
+	color = c;
+
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::getPieza()
+// Purpose:    Implementation of Cuadricula::getPieza()
+// Return:     Pieza
+////////////////////////////////////////////////////////////////////////
+
+Pieza Cuadricula::getPieza()
+{
+	return pieza;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::getColor()
+// Purpose:    Implementation of Cuadricula::getColor()
+// Return:     Color
+////////////////////////////////////////////////////////////////////////
+
+Color Cuadricula::getColor()
+{
+	return color;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Cuadricula::Cuadricula()
+// Purpose:    Implementation of Cuadricula::Cuadricula()
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+Cuadricula::Cuadricula()
+{
+	pieza = VACIO;
+	color = NINGUNO;
+}
+
+

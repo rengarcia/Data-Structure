@@ -1,0 +1,458 @@
+1 ¿Cu´al es el m´aximo valor que puede representarse con 16 bits y un sistema de representaci´on posicional como el
+descrito? ¿Qu´e secuencia de bits le corresponde?
+· 2 ¿Cu´antos bits se necesitan para representar los n´umeros del 0 al 18, ambos inclusive?
+· 3 Calcula las siguientes sumas de n´umeros codificados con 8 bits en el sistema posicional:
+a) 01111111 + 00000001 b) 01010101 + 10101010 c) 00000011 + 00000001
+· 4 Codifica en complemento a dos de 8 bits los siguientes valores:
+a) 4 b) −4 c) 0 d) 127 e) 1 f) −1
+· 5 Efect´ua las siguientes sumas y restas en complemento a dos de 8 bits:
+a) 4 + 4 b) −4 + 3 c) 127 − 128 d) 128 − 127 e) 1 − 1 f) 1 − 2
+· 6 Ejecuta paso a paso el mismo programa con los valores 2, −2 y 0 en las posiciones de memoria 10, 11 y 12, respectivamente.
+· 7 Dise˜na un programa que calcule la media de cinco n´umeros depositados en las posiciones de memoria que van de la 10
+a la 14 y que deje el resultado en la direcci´on de memoria 15. Recuerda que la media ¯x de cinco n´umeros x1, x2, x3, x4 y x5
+es
+x¯ =
+P5
+i=1 xi
+5
+=
+x1 + x2 + x3 + x4 + x5
+5
+.
+· 8 Dise˜na un programa que calcule la varianza de cinco n´umeros depositados en las posiciones de memoria que van de la
+10 a la 14 y que deje el resultado en la direcci´on de memoria 15. La varianza, que se denota con σ
+2
+, es
+σ
+2 =
+P5
+i=1(xi − x¯)
+2
+5
+,
+donde ¯x es la media de los cinco valores. Sup´on que existe una instrucci´on ✭✭Multiplicar el contenido de direcci´on a por el
+contenido de direcci´on b y dejar el resultado en direcci´on c✮✮.
+· 9 Dise˜na un algoritmo para calcular el ´area de un c´ırculo dado su radio. (Recuerda que el ´area de un c´ırculo es π veces
+el cuadrado del radio.)
+· 10 Dise˜na un algoritmo que calcule el IVA (16%) de un producto dado su precio de venta sin IVA.
+· 11 ¿Podemos llamar algoritmo a un procedimiento que escriba en una cinta de papel todos los n´umeros decimales de π?
+· 12 ¿Qu´e expresiones Python permiten, utilizando el menor n´umero posible de par´entesis, efectuar en el mismo orden los
+c´alculos representados con estos ´arboles sint´acticos?
++
+-
++
+1 2
+3
+4 +
+-
+1 2
++
+3 4
++
+1 -
+2 +
+3 4
+a) b) c)
+· 13 Dibuja los ´arboles sint´acticos correspondientes a las siguientes expresiones aritm´eticas:
+a) 1 + 2 + 3 + 4 b) 1 - 2 - 3 - 4 c) 1 - (2 - (3 - 4) + 1)
+· 14 ¿Qu´e resultados se obtendr´an al evaluar las siguientes expresiones Python? Dibuja el ´arbol sint´actico de cada una
+de ellas, calcula a mano el valor resultante de cada expresi´on y comprueba, con la ayuda del ordenador, si tu resultado es
+correcto.
+Introducci´on a la Programaci´on con Python 1
+2003/11/26-16:57
+a) 2 + 3 + 1 + 2
+b) 2 + 3 * 1 + 2
+c) (2 + 3) * 1 + 2
+d) (2 + 3) * (1 + 2)
+e) +---6
+f) -+-+6
+· 15 Traduce las siguientes expresiones matem´aticas a Python y eval´ualas. Trata de utilizar el menor n´umero de par´entesis
+posible.
+a) 2 + (3 · (6/2))
+b) 4 + 6
+2 + 3
+c) (4/2)5
+d) (4/2)5+1
+e) (−3)2
+f) −(32
+)
+(Nota: El resultado de evaluar cada expresi´on es: a) 11; b) 2; c) 32; d) 64; e) 9; f) −9.)
+· 16 ¿Qu´e resultar´a de evaluar las siguientes expresiones? Presta especial atenci´on al tipo de datos que resulta de cada
+operaci´on individual. Haz los c´alculos a mano ayud´andote con ´arboles sint´acticos y comprueba el resultado con el ordenador.
+a) 1 / 2 / 4.0
+b) 1 / 2.0 / 4.0
+c) 1 / 2.0 / 4
+d) 1.0 / 2 / 4
+e) 4 ** .5
+f) 4.0 ** (1 / 2)
+g) 4.0 ** (1 / 2) + 1 / 2
+h) 4.0 ** (1.0 / 2) + 1 / 2.0
+i) 3e3 / 10
+j) 10 / 5e-3
+k) 10 / 5e-3 + 1
+l) 3 / 2 + 1
+· 17 ¿Qu´e resultados se muestran al evaluar estas expresiones?
+>>> True == True != False
+
+>>> 1 < 2 < 3 < 4 < 5
+
+>>> (1 < 2 < 3) and (4 < 5)
+
+>>> 1 < 2 < 4 < 3 < 5
+
+>>> (1 < 2 < 4) and (3 < 5)
+
+· 18 ¿Son v´alidos los siguientes identificadores?
+a) Identificador
+b) Indice\dos
+c) Dos palabras
+d) __
+e) 12horas
+f) hora12
+g) desviaci´on
+h) a˜no
+i) from
+j) var !
+k) ’var’
+l) import_from
+m) UnaVariable
+n) a(b)
+˜n) 12
+o) uno.dos
+p) x
+q) π
+r) ´area
+s) area-rect
+t) x_______ 1
+u) ________ 1
+v) _x_
+w) x_x
+· 19 ¿Qu´e resulta de ejecutar estas tres l´ıneas?
+>>> x = 10
+
+>>> x = x * 10
+
+>>> x
+
+· 20 Eval´ua el polinomio x
+4 + x
+3 + 2x
+2 − x en x = 1.1. Utiliza variables para evitar teclear varias veces el valor de x. (El
+resultado es 4.1151.)
+· 21 Eval´ua el polinomio x
+4 + x
+3 +
+1
+2
+x
+2 − x en x = 10. Aseg´urate de que el resultado sea un n´umero flotante. (El resultado
+es 11040.0.)
+· 22 ¿Qu´e resultar´a de ejecutar las siguientes sentencias?
+>>> z = 2
+
+>>> z += 2
+
+>>> z += 2 - 2
+
+>>> z *= 2
+
+2 Introducci´on a la Programaci´on con Python
+
+c 2003 Andr´es Marzal e Isabel Gracia
+>>> z *= 1 + 1
+
+>>> z /= 2
+
+>>> z %= 3
+
+>>> z /= 3 - 1
+
+>>> z -= 2 + 1
+
+>>> z -= 2
+
+>>> z **= 3
+
+>>> z
+
+· 23 Eval´ua estas expresiones y sentencias en el orden indicado:
+a) a = ’b’
+b) a + ’b’
+c) a + ’a’
+d) a * 2 + ’b’ * 3
+e) 2 * (a + ’b’)
+· 24 ¿Qu´e resultados se obtendr´an al evaluar las siguientes expresiones y asignaciones Python? Calcula primero a mano el
+valor resultante de cada expresi´on y comprueba, con la ayuda del ordenador, si tu resultado es correcto.
+a) ’a’ * 3 + ’/*’ * 5 + 2 * ’abc’ + ’+’
+b) palindromo = ’abcba’
+(4 * ’<’ + palindromo + ’>’ * 4) * 2
+c) subcadena = ’=’ + ’-’ * 3 + ’=’
+’10’ * 5 + 4 * subcadena
+d) 2 * ’12’ + ’.’ + ’3’ * 3 + ’e-’ + 4 * ’76’
+· 25 Identifica regularidades en las siguientes cadenas, y escribe expresiones que, partiendo de subcadenas m´as cortas y
+utilizando los operadores de concatenaci´on y repetici´on, produzcan las cadenas que se muestran. Introduce variables para
+formar las expresiones cuando lo consideres oportuno.
+a) ’%%%%%./././<-><->’
+b) ’(@)(@)(@)======(@)(@)(@)======’
+c) ’asdfasdfasdf=-=-=-=-=-=-=-??????asdfasdf’
+d) ’........*****---*****---........*****---*****---’
+· 26 ¿Qu´e resultados se muestran al evaluar estas expresiones?
+>>> ’abalorio’ < ’abecedario’
+
+>>> ’abecedario’ < ’abecedario’
+
+>>> ’abecedario’ <= ’abecedario’
+
+>>> ’Abecedario’ < ’abecedario’
+
+>>> ’Abecedario’ == ’abecedario’
+
+>>> 124 < 13
+
+>>> ’124’ < ’13’
+
+>>> ’ a’ < ’a’
+
+· 27 Calcula con una ´unica expresi´on el valor absoluto del redondeo de −3.2. (El resultado es 3.0.)
+· 28 Convierte (en una ´unica expresi´on) a una cadena el resultado de la divisi´on 5011/10000 redondeado con 3 decimales.
+· 29 ¿Qu´e resulta de evaluar estas expresiones?
+>>> str(2.1) + str(1.2)
+
+>>> int(str(2) + str(3))
+
+>>> str(int(12.3)) + ’0’
+
+>>> int(’2’+’3’)
+
+>>> str(2 + 3)
+
+>>> str(int(2.1) + float(3))
+
+Introducci´on a la Programaci´on con Python 3
+2003/11/26-16:57
+· 30 ¿Qu´e resultados se obtendr´an al evaluar las siguientes expresiones Python? Calcula primero a mano el valor resultante
+de cada expresi´on y comprueba, con la ayuda del ordenador, si tu resultado es correcto.
+a) int(exp(2 * log(3)))
+b) round(4*sin(3 * pi / 2))
+c) abs(log10(.01) * sqrt(25))
+d) round(3.21123 * log10(1000), 3)
+· 31 Dise˜na un programa que, a partir del valor del lado de un cuadrado (3 metros), muestre el valor de su per´ımetro (en
+metros) y el de su ´area (en metros cuadrados).
+(El per´ımetro debe darte 12 metros y el ´area 9 metros cuadrados.)
+· 32 Dise˜na un programa que, a partir del valor de la base y de la altura de un tri´angulo (3 y 5 metros, respectivamente),
+muestre el valor de su ´area (en metros cuadrados).
+Recuerda que el ´area A de un tri´angulo se puede calcular a partir de la base b y la altura h como A =
+1
+2
+bh.
+b
+h
+(El resultado es 7.5 metros cuadrados.)
+· 33 Dise˜na un programa que, a partir del valor de los dos lados de un rect´angulo (4 y 6 metros, respectivamente), muestre
+el valor de su per´ımetro (en metros) y el de su ´area (en metros cuadrados).
+(El per´ımetro debe darte 20 metros y el ´area 24 metros cuadrados.)
+· 34 Dise˜na un programa que pida el valor del lado de un cuadrado y muestre el valor de su per´ımetro y el de su ´area.
+(Prueba que tu programa funciona correctamente con este ejemplo: si el lado vale 1.1, el per´ımetro ser´a 4.4, y el ´area
+1.21.)
+· 35 Dise˜na un programa que pida el valor de los dos lados de un rect´angulo y muestre el valor de su per´ımetro y el de su
+´area.
+(Prueba que tu programa funciona correctamente con este ejemplo: si un lado mide 1 y el otro 5, el per´ımetro ser´a 12.0,
+y el ´area 5.0.)
+· 36 Dise˜na un programa que pida el valor de la base y la altura de un tri´angulo y muestre el valor de su ´area.
+(Prueba que tu programa funciona correctamente con este ejemplo: si la base es 10 y la altura 100, el ´area ser´a 500.0.)
+· 37 Dise˜na un programa que pida el valor de los tres lados de un tri´angulo y calcule el valor de su ´area y per´ımetro.
+Recuerda que el ´area A de un tri´angulo puede calcularse a partir de sus tres lados, a, b y c, as´ı: A =
+p
+s(s − a)(s − b)(s − c),
+donde s = (a + b + c)/2.
+(Prueba que tu programa funciona correctamente con este ejemplo: si los lados miden 3, 5 y 7, el per´ımetro ser´a 15.0 y
+el ´area 6.49519052838.)
+· 38 El ´area A de un tri´angulo se puede calcular a partir del valor de dos de sus lados, a y b, y del ´angulo θ que ´estos
+forman entre s´ı con la f´ormula A =
+1
+2
+ab sin(θ). Dise˜na un programa que pida al usuario el valor de los dos lados (en metros),
+el ´angulo que estos forman (en grados), y muestre el valor del ´area.
+a
+b
+θ
+(Ten en cuenta que la funci´on sin de Python trabaja en radianes, as´ı que el ´angulo que leas en grados deber´as pasarlo a
+radianes sabiendo que π radianes son 180 grados. Prueba que has hecho bien el programa introduciendo los siguientes datos:
+a = 1, b = 2, θ = 30; el resultado es 0.5.)
+· 39 Haz un programa que pida al usuario una cantidad de euros, una tasa de inter´es y un n´umero de a˜nos. Muestra
+por pantalla en cu´anto se habr´a convertido el capital inicial transcurridos esos a˜nos si cada a˜no se aplica la tasa de inter´es
+introducida.
+Recuerda que un capital de C euros a un inter´es del x por cien durante n a˜nos se convierten en C · (1 + x/100)n euros.
+(Prueba tu programa sabiendo que una cantidad de 10 000 ¤ al 4.5% de inter´es anual se convierte en 24 117.14 ¤ al cabo
+de 20 a˜nos.)
+4 Introducci´on a la Programaci´on con Python
+
+c 2003 Andr´es Marzal e Isabel Gracia
+· 40 Haz un programa que pida el nombre de una persona y lo muestre en pantalla repetido 1000 veces, pero dejando un
+espacio de separaci´on entre aparici´on y aparici´on del nombre. (Utiliza los operadores de concatenaci´on y repetici´on.)
+· 41 ¿Qu´e mostrar´a por pantalla este programa?
+1 print ’%d’ % 1
+2 print ’%d %d’ % (1, 2)
+3 print ’%d%d’ % (1, 2)
+4 print ’%d, %d’ % (1, 2)
+5 print 1, 2
+6 print ’%d 2’ % 1
+· 42 Un alumno inquieto ha experimentado con las marcas de formato y el m´etodo upper y ha obtenido un resultado
+sorprendente:
+>>> print (’n´umero %d y n´umero %d’ % (1, 2)).upper()
+
+N´UMERO 1 Y N´UMERO 2
+>>> print ’n´umero %d y n´umero %d’.upper() % (1, 2)
+
+Traceback (most recent call last):
+File "<stdin>", line 1, in ?
+ValueError: unsupported format character ’D’ (0x44) at index 8
+¿Qu´e crees que ha pasado?
+(Nota: Aunque experimentar conlleva el riesgo de equivocarse, no podemos enfatizar suficientemente cu´an importante es
+para que asimiles las explicaciones. Probarlo todo, cometer errores, reflexionar sobre ellos y corregirlos es uno de los mejores
+ejercicios imaginables.)
+· 43 ¿Qu´e peque˜na diferencia hay entre el programa saluda.py y este otro cuando los ejecutamos?
+saluda2.py
+1 nombre = raw_input(’Tu nombre: ’)
+2 print ’Hola,’, nombre, ’.’
+· 44 La marca %s puede representar cadenas con un n´umero fijo de casillas. A la vista de c´omo se pod´ıa expresar esta
+caracter´ıstica en la marca de enteros %d, ¿sabr´ıas como indicar que deseamos representar una cadena que ocupa 10 casillas?
+· 45 Dise˜na un programa que solicite el radio de una circunferencia y muestre su ´area y per´ımetro con s´olo 2 decimales.
+· 46 Dibuja esta figura. (Te indicamos las coordenadas de las esquinas inferior izquierda y superior derecha.)
+(100, 100)
+(900, 900)
+· 47 Dibuja esta figura.
+Los tres c´ırculos conc´entricos tienen radios 100, 200 y 300, respectivamente.
+· 48 Dibuja esta figura.
+a
+b
+c
+d
+Los tres c´ırculos conc´entricos tienen radios 100, 200 y 300, respectivamente.
+Introducci´on a la Programaci´on con Python 5
+2003/11/26-16:57
+· 49 Dibuja esta figura.
+a
+b
+c
+d
+(Hemos usado los colores amarillo y magenta para las l´ıneas rectas, verde y azul para los c´ırculos y negro para las letras.)
+· 50 Modifica el programa para que sea el usuario quien proporcione, mediante el teclado, el valor del porcentaje de
+suspensos, aprobados, notables y sobresalientes.
+· 51 Modifica el programa para que sea el usuario quien proporcione, mediante el teclado, el n´umero de suspensos,
+aprobados, notables y sobresalientes. (Antes de dibujar el gr´afico de pastel debes convertir esas cantidades en porcentajes.)
+· 52 Queremos representar la informaci´on de forma diferente: mediante un gr´afico de barras. He aqu´ı c´omo:
+Sus Apr Not Sob
+10 %
+20 %
+40 %
+30 %
+Dise˜na un programa que solicite por teclado el n´umero de personas con cada una de las cuatro calificaciones y muestre el
+resultado con un gr´afico de barras.
+· 53 Un programador propone el siguiente programa para resolver la ecuaci´on de primer grado:
+1 a = float(raw_input(’Valor de a: ’))
+2 b = float(raw_input(’Valor de b: ’))
+3
+4 a * x + b = 0
+5
+6 print ’Soluci´on: ’, x
+¿Es correcto este programa? Si no, explica qu´e est´a mal.
+· 54 Otro programador propone este programa:
+1 x = -b / a
+2
+3 a = float(raw_input(’Valor de a: ’))
+4 b = float(raw_input(’Valor de b: ’))
+5
+6 print ’Soluci´on: ’, x
+¿Es correcto? Si no lo es, explica qu´e est´a mal.
+· 55 Un estudiante ha tecleado el ´ultimo programa y, al ejecutarlo, obtiene este mensaje de error.
+File "primer_grado4.py", line 7
+if a = 0:
+^
+SyntaxError: invalid syntax
+Aqu´ı tienes el contenido del fichero que ´el ha escrito:
+primer grado 3.py E primer grado.py E
+1 a = float(raw_input(’Valor de a: ’))
+2 b = float(raw_input(’Valor de b: ’))
+3
+4 if a != 0:
+5 x = -b/a
+6 print ’Soluci´on: ’, x
+7 if a = 0:
+8 print ’La ecuaci´on no tiene soluci´on.’
+Por m´as que el estudiante lee el programa, no encuentra fallo alguno. El dice que la l´ınea 7, que es la marcada como err´onea, ´
+se lee as´ı: ✭✭si a es igual a cero. . . ✮✮ ¿Est´a en lo cierto? ¿Por qu´e se detecta un error?
+6 Introducci´on a la Programaci´on con Python
+
+c 2003 Andr´es Marzal e Isabel Gracia
+· 56 Un programador primerizo cree que la l´ınea 7 de la ´ultima versi´on de primer grado.py es innecesaria, as´ı que propone
+esta otra versi´on como soluci´on v´alida:
+primer grado 4.py E primer grado.py E
+1 a = float(raw_input(’Valor de a: ’))
+2 b = float(raw_input(’Valor de b: ’))
+3
+4 if a != 0:
+5 x = -b/a
+6 print ’Soluci´on: ’, x
+7
+8 print ’La ecuaci´on no tiene soluci´on.’
+Haz una traza del programa para a = 2 y b = 2. ¿Son correctos todos los mensajes que muestra por pantalla el programa?
+· 57 Indica qu´e l´ıneas del ´ultimo programa (y en qu´e orden) se ejecutar´an para cada uno de los siguientes casos:
+a) a = 2 y b = 6. b) a = 0 y b = 3. c) a = 0 y b = −3. d) a = 0 y b = 0.
+· 58 Dise˜na un programa que lea un n´umero flotante por teclado y muestre por pantalla el mensaje ✭✭El n´umero es
+negativo.✮✮ s´olo si el n´umero es menor que cero.
+· 59 Dise˜na un programa que lea un n´umero flotante por teclado y muestre por pantalla el mensaje ✭✭El n´umero es
+positivo.✮✮ s´olo si el n´umero es mayor o igual que cero.
+· 60 Dise˜na un programa que lea la edad de dos personas y diga qui´en es m´as joven, la primera o la segunda. Ten en
+cuenta que ambas pueden tener la misma edad. En tal caso, hazlo saber con un mensaje adecuado.
+· 61 Dise˜na un programa que lea un car´acter de teclado y muestre por pantalla el mensaje ✭✭Es par´entesis✮✮ s´olo si el
+car´acter le´ıdo es un par´entesis abierto o cerrado.
+· 62 Indica en cada uno de los siguientes programas qu´e valores en las respectivas entradas provocan la aparici´on de los
+distintos mensajes. Piensa primero la soluci´on y comprueba luego que es correcta ayud´andote con el ordenador.
+a) misterio 3.py misterio.py
+1 letra = raw_input(’Dame una letra min´uscula: ’)
+2
+3 if letra <= ’k’:
+4 print ’Es de las primeras del alfabeto’
+5 if letra >= ’l’:
+6 print ’Es de las ´ultimas del alfabeto’
+b) misterio 4.py misterio.py
+1 from math import ceil # ceil redondea al alza.
+2
+3 grados = float(raw_input(’Dame un ´angulo (en grados): ’))
+4
+5 cuadrante = int(ceil(grados) % 360) / 90
+6 if cuadrante == 0:
+7 print ’primer cuadrante’
+8 if cuadrante == 1:
+9 print ’segundo cuadrante’
+10 if cuadrante == 2:
+11 print ’tercer cuadrante’
+12 if cuadrante == 3:
+13 print ’cuarto cuadrante’
+· 63 ¿Qu´e mostrar´a por pantalla el siguiente programa?
+comparaciones.py comparaciones.py
+1 if 14 < 120:
+2 print ’Primer saludo’
+3 if ’14’ < ’120’:
+4 print ’Segundo saludo’
+· 64 Dise˜na un programa que, dado un n´umero entero, muestre por pantalla el mensaje ✭✭El n´umero es par.✮✮ cuando el
+n´umero sea par y el mensaje ✭✭El n´umero es impar.✮✮ cuando sea impar.
+(Una pista: un n´umero es par si el resto de dividirlo por 2 es 0, e impar en caso contrario.)
+Introducci´on a la Programaci´on con Python 7
+2003/11/26-16:57
+· 65 Dise˜na un programa que, dado un n´umero entero, determine si ´este es el doble de un n´umero impar. (Ejemplo: 14 es
+el doble de 7, que es impar.)
+· 66 Dise˜na un programa que, dados dos n´umeros enteros, muestre por pantalla uno de estos mensajes: ✭✭El segundo
+es el cuadrado exacto del primero.✮✮, ✭✭El segundo es menor que el cuadrado del primero.✮✮ o ✭✭El segundo es
+mayor que el cuadrado del primero.✮✮, dependiendo de la verificaci´on de la condici´on correspondiente al significado de
+cada mensaje.
+· 67 Un capital de C euros a un inter´es del x por cien anual durante n a˜nos se convierte en C ·(1 + x/100)n euros. Dise˜na
+un programa Python que solicite la cantidad C y el inter´es x y calcule el capital final s´olo si x es una cantidad positiva.
+· 68 Realiza un programa que calcule el desglose en billetes y monedas de una cantidad exacta de euros. Hay billetes de
+500, 200, 100, 50, 20, 10 y 5 ¤ y monedas de 2 y 1 ¤.
+Por ejemplo, si deseamos conocer el desglose de 434 ¤, el programa mostrar´a por pantalla el siguiente resultado:
+2 billetes de 200 euros.
+1 billete de 20 euros.
+1 billete de 10 euros.
+2 monedas de 2 euros.
