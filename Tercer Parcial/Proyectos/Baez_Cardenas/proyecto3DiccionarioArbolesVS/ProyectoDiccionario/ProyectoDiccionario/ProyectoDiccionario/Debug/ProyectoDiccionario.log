@@ -1,0 +1,35 @@
+﻿  Aplicativo_Diccionario.cpp
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(167,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(168,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(172,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(196,23): warning C4101: 'us3': variable local sin referencia
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(196,39): warning C4101: 'us5': variable local sin referencia
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(196,31): warning C4101: 'us4': variable local sin referencia
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(235,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(226,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(227,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : vea la declaración de 'fopen'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(276,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(267,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(268,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : vea la declaración de 'fopen'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(166,37): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(166,37): message : los marcadores de posición y sus parámetros esperan 0 argumentos variádicos, pero se proporcionaron 2
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(168,14): warning C4473: "printf": no se pasaron suficientes argumentos para la cadena de formato
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(168,14): message : los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 0
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(168,14): message : el argumento variádico 1 que falta es requerido por la cadena de formato '%c'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(134,1): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\conio.h(453): message : vea la declaración de 'getch'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(202,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(218,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message : vea la declaración de 'strcpy'
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Aplicativo_Diccionario.cpp(61,11): warning C4101: 'opcion': variable local sin referencia
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(207): warning C4715: 'Acceso::validarusuario': no todas las rutas de acceso de control devuelven un valor
+C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\ProyectoDiccionario\Clases.h(220): warning C4715: 'Acceso::validarclave': no todas las rutas de acceso de control devuelven un valor
+  ProyectoDiccionario.vcxproj -> C:\Users\EDISON\Downloads\ProyectoDiccionario\ProyectoDiccionario\Debug\ProyectoDiccionario.exe
