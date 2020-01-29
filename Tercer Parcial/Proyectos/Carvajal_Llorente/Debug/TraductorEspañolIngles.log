@@ -1,0 +1,7 @@
+﻿  Arbol.cpp
+  Principal.cpp
+C:\Users\Sashael\Desktop\TraductorEsIn-Esctruc-Datos-2967\Codigo\TraductorEspañolIngles\Principal.cpp(178,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Sashael\Desktop\TraductorEsIn-Esctruc-Datos-2967\Codigo\TraductorEspañolIngles\Principal.cpp(195,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Sashael\Desktop\TraductorEsIn-Esctruc-Datos-2967\Codigo\TraductorEspañolIngles\Principal.cpp(161,7): warning C4101: 'val': variable local sin referencia
+  Generando código...
+  TraductorEspañolIngles.vcxproj -> C:\Users\Sashael\Desktop\TraductorEsIn-Esctruc-Datos-2967\Codigo\TraductorEspañolIngles\Debug\TraductorEspañolIngles.exe
