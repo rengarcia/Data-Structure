@@ -1,3 +1,3 @@
 # Estructura-de-datos-2967		
 
- Trabajos realizados el primer parcial 
+##Trabajos realizados durante todo el semestre 
